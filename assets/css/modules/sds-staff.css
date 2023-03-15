@@ -1,8 +1,46 @@
 /* Card staff */
 
-.card1 .card2 .card3{
-    background-color: var(--secondaryColor);
-    border-radius: var(--Bradius),
+.card-container{
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior: contain;
 }
-.card-img{
+/*style des cards */
+
+.card{
+}
+
+.card-back{
+    background-color: var(--secondaryColor);
+    border-radius: var(--Bradius);
+    box-shadow: var(--boxShadow);
+    margin: 0 1rem;
+    width : 18rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
+.card-img-front{
+    width: 14rem;
+}
+
+.card-img-back{
+    width: 10rem;
+}
+/* tel */
+
+.card-front{
+    display: none;
+}
+
+/* rotation des cards */
+
+card-container:hover{
+    transform: rotateY(180deg);
 }
