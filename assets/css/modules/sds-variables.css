@@ -1,33 +1,9 @@
 :root {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    --primaryColor: #B60B00;
+    --primaryColor: rgba(182, 11, 0, 0.5);
     --secondaryColor: #D9D9D9;
-=======
-    --primaryColor: #B60B00;
-    --secondary-Color: #D9D9D9;
->>>>>>> 5b636f6772a06bbd037a7f97bf592edf73032e42
     --background: white;
     --textColor: black;
     --btn: #655A5A;
     --boxShadow: 4px 4px 4px black;
     --Bradius: 10px;
-<<<<<<< HEAD
-
 }
-=======
-    --primaryColor: #B60B00; //red
-    --secondaryColor: #D9D9D9; //gray
-    --background: white; //blanc
-    --textColor: black;
-    --btn: #655A5A; //hamburger
-    --boxShadow: 4px 4px 4px black;
-    --Bradius: 10px;
-
-}
-
-
->>>>>>> main
-=======
-}
->>>>>>> 5b636f6772a06bbd037a7f97bf592edf73032e42
