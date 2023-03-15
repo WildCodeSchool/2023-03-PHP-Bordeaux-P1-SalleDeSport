@@ -1,0 +1,8 @@
+/* Card staff */
+
+.card1 .card2 .card3{
+    background-color: var(--secondaryColor);
+    border-radius: var(--Bradius),
+}
+.card-img{
+}
