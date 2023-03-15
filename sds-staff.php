@@ -4,16 +4,16 @@ include "_includes/sds-header.php"
 
 <div>
     <div class="card1">
-        <img src="assets/images/prof1.jpg">
-        <p>Alexandra</p>
+        <img class="card-img" src="assets/images/prof1.jpg" alt="photo du professeur de sport Alexandra">
+        <p class="card-p">Alexandra</p>
     </div>
     <div class="card2">
-        <img src="assets/images/prof2.jpg">
-        <p>Youssouf</p>
+        <img class="card-img" src="assets/images/prof2.jpg" alt="photo du professeur de sport Youssouf">
+        <p class="card-p">Youssouf</p>
     </div>
     <div class="card3">
-        <img src="assets/images/prof3.jpeg">
-        <p>Aline</p>
+        <img class="card-img" src="assets/images/prof3.jpeg" alt="photo du professeur de sport Aline">
+        <p class="card-p">Aline</p>
     </div>
 </div>
 
