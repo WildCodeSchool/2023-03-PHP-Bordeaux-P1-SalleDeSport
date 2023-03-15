@@ -4,3 +4,10 @@
 @import "modules/sds-contact.css";
 @import "modules/sds-staff.css";
 @import "modules/sds-footer.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
