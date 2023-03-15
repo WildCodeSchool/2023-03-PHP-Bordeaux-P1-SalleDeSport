@@ -6,10 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../assets/css/sds-main.css">
+    <link rel="stylesheet" href="../assets/css/modules/sds-header.css">
+    <link rel="stylesheet" href="../assets/css/modules/sds-home.css">
+    <link rel="stylesheet" href="../assets/css/modules/sds-staff.css">
+    <link rel="stylesheet" href="../assets/css/modules/sds-contact.css">
+    <link rel="stylesheet" href="../assets/css/modules/sds-footer.css">
+    <link rel="stylesheet" href="../assets/css/modules/sds-variables.css">
+
     <!-- Primary Meta Tags -->
     <title>Meta Tags — Preview, Edit and Generate</title>
     <meta name="title" content="Meta Tags — Preview, Edit and Generate">
-    <meta name="description" content="The Gym'Naze room specializing in rehabilitation sports, disabled sports and assisted sports!">
+    <meta name="description" content="The Body&Soul room specializing in rehabilitation sports, disabled sports and assisted sports!">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -24,11 +31,10 @@
     <meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate">
     <meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
     <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
     <title>Gym'Naze</title>
 </head>
 <body>
-<header>
+<header class="main-header">
             <menu class="menu">
                         <div class="button">
                             <span></span>
@@ -41,5 +47,5 @@
                             <li><a href="">Contact</a></li>
                         </ul>
             </menu>
-            <div class="logo"></div>
+            <div class="logo"><img src="../assets/images/logo%20(1).png" alt=""></div>
 </header>
