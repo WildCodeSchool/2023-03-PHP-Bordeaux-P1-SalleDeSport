@@ -8,33 +8,33 @@ include "_includes/sds-header.php"
     <div class="card">
         <div class="card-front">
             <img class="card-img-front" src="assets/images/prof1.jpg" alt="photo du professeur de sport Louis">
-            <p class="card-p">Louis</p>
+            <h3>Louis</h3>
         </div>
         <div class="card-back">
             <img class="card-img-back" src="assets/images/prof1.jpg" alt="photo du professeur de sport Louis">
-            <p class="card-p">Louis</p>
+            <h3>Louis</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
     </div>
     <div class="card">
         <div class="card-front">
             <img class="card-img-front" src="assets/images/prof2.jpg" alt="photo du professeur de sport Marie">
-            <p class="card-p">Marie</p>
+            <h3>Marie</h3>
         </div>
         <div class="card-back">
             <img class="card-img-back" src="assets/images/prof2.jpg" alt="photo du professeur de sport Marie">
-            <p class="card-p">Marie</p>
+            <h3>Marie</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
     </div>
     <div class="card">
         <div class="card-front">
             <img class="card-img" src="assets/images/prof3.jpeg" alt="photo du professeur de sport Aurore">
-            <p class="card-p">Aurore</p>
+            <h3>Aurore</h3>
         </div>
         <div class="card-back">
             <img class="card-img-back" src="assets/images/prof3.jpeg" alt="photo du professeur de sport Aurore">
-            <p class="card-p">Aurore</p>
+            <h3>Aurore</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
     </div>
