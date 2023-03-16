@@ -1,0 +1,120 @@
+body{
+    height: 100vh;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primaryColor);
+    bottom: 0;
+    position: absolute;
+}
+.socialnetwork{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--secondaryColor);
+}
+.socialnetwork:first-child{
+    transform: scale(0.3);
+}
+.circle{
+    display: none;
+}
+.socialnetwork:hover .circle{
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 1.55rem;
+    background-color: var(--secondaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+address{
+    display:flex ;
+}
+
+.tel{
+    display: none;
+}
+svg{
+    transform: scale(0.6);
+}
+svg:hover{
+    transform: scale(1) rotate(360deg);
+    transition-duration: 0.5s;
+}
+.address{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50px;
+    height:50px;
+    border-radius: 25px;
+    background-color: var(--secondaryColor);
+}
+a{
+    display: none;
+}
+
+#facebook svg{
+    color: #1b1893;
+}
+#insta svg path{
+    color: #1b1893;
+}
+#twitter svg path{
+    color: #075f93;
+}
+
+@media screen and (min-width: 1024px) {
+    .socialnetwork{
+        flex-direction: row;
+        width: 10%;
+        background-color: initial;
+        justify-content: space-around;
+    }
+    .socialnetwork.button{
+        display: none;
+    }
+    .circle{
+        width: 3.1rem;
+        height: 3.1rem;
+        border-radius: 1.55rem;
+        background-color: var(--secondaryColor);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    address{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    address svg{
+        transform:scale(0.3);
+        width: 20%;
+    }
+    .address a {
+        display: initial;
+    }
+
+    .tel{
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    .tel p{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .tel svg{
+        transform: scale(0.3);
+        width: 20%;
+    }
+
+}
