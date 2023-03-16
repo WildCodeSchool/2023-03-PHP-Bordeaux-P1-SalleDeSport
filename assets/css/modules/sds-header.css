@@ -1,25 +1,29 @@
-.main-header{
-    height: calc(106px/2);
+.main-header {
+    height: calc(106px / 2);
     justify-content: space-between;
     display: flex;
     background-color: var(--primaryColor);
 }
-header img{
+
+header img {
     width: 6.25rem;
 }
-.menu{
+
+.menu {
     display: flex;
     flex-direction: column;
     height: max-content;
 
 }
-span{
+
+span {
     display: block;
     width: 3.93rem;
     height: 0.37rem;
     background-color: rgba(189, 180, 180, 1);
     border-radius: 1.18rem;
 }
+
 .menu ul {
     margin: 0;
     padding: 0;
@@ -29,13 +33,15 @@ span{
     background-color: rgba(182, 11, 0, 0.5);
     z-index: 2;
 }
-.menu:hover ul{
+
+.menu:hover ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.button{
+
+.button {
     display: flex;
     width: 5.31rem;
     height: 2.93rem;
@@ -46,44 +52,51 @@ span{
     align-content: center;
 
 }
-li{
+
+li {
     list-style: none;
 }
+
 li:hover {
     transform: scale(1.5, 1.5);
     transition-duration: 1S;
 
 }
 
-header a{
+header a {
     color: white;
     font-size: 1.93rem;
 }
 
 
 @media screen and (min-width: 1024px) {
-    .main-header{
+    .main-header {
         flex-direction: row-reverse;
         align-items: center;
-        height: calc(360px/2);
+        height: calc(360px / 2);
     }
+
     header img {
         width: 22.5rem;
-        margin-top:11rem ;
+        margin-top: 11rem;
     }
-    .menu{
+
+    .menu {
         margin-right: 2rem;
     }
-    .menu:hover ul{
+
+    .menu:hover ul {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
-    .button{
+
+    .button {
         display: none;
     }
-    #ul{
+
+    #ul {
         display: flex;
         justify-content: space-around;
         height: auto;
@@ -91,7 +104,8 @@ header a{
         width: 40rem;
 
     }
-    li a{
+
+    li a {
         font-size: 3rem;
     }
 }
