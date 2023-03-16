@@ -1,6 +1,85 @@
-.container-contact{
+.container-contact {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background: var(--background);
+    align-items: center;
+}
 
+/*Partie formulaire*/
+
+h2 {
+    margin: 2rem;
+}
+
+.container-form {
+    margin: 1rem;
+}
+
+.container-form .input {
+    width: 300px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    background: var(--secondaryColor);
+    border-radius: 5px;
+    box-shadow: var(--boxShadow);
+}
+
+.container-form .textarea {
+    width: 300px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    background: var(--secondaryColor);
+    border-radius: 5px;
+    box-shadow: var(--boxShadow);
+    resize: none;
+}
+
+
+.container-form .submitMessage {
+    padding: 0 1rem;
+    margin: 0.5rem 0;
+    width: 5rem;
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--boxShadow);
+}
+
+.container-form .submitMessage:hover {
+    cursor: pointer;
+}
+
+/*Partie Adresse*/
+
+.container-address img {
+    width: 300Px;
+    box-shadow: var(--boxShadow);
+}
+
+.container-address,
+.container-address h3 {
+    margin: 1rem 0;
+}
+
+.container-address p {
+    margin: 0;
+}
+
+
+@media screen and (min-width: 475px) {
+    .container-contact h2 {
+        margin: 1rem 0 0 0;
+    }
+
+    .container-form,
+    .container-form .textarea,
+    .container-address img {
+        width: 600px;
+    }
 
 }

@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="../assets/css/modules/sds-contact.css">
     <link rel="stylesheet" href="../assets/css/modules/sds-footer.css">
     <link rel="stylesheet" href="../assets/css/modules/sds-variables.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <!-- Primary Meta Tags -->
-    <title>Meta Tags — Preview, Edit and Generate</title>
     <meta name="title" content="Meta Tags — Preview, Edit and Generate">
     <meta name="description" content="The Body&Soul room specializing in rehabilitation sports, disabled sports and assisted sports!">
 
@@ -41,10 +42,10 @@
                             <span></span>
                             <span></span>
                         </div>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Staff</a></li>
-                            <li><a href="">Contact</a></li>
+                        <ul id="ul">
+                            <li><a href="../sds-home.php">Home</a></li>
+                            <li><a href="../sds-staff.php">Staff</a></li>
+                            <li><a href="../sds-contact.php">Contact</a></li>
                         </ul>
             </menu>
             <div class="logo"><img src="../assets/images/logo%20(1).png" alt=""></div>

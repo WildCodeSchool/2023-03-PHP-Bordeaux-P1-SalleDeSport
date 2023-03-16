@@ -10,7 +10,6 @@ header img{
 .menu{
     display: flex;
     flex-direction: column;
-    width: 5.3rem;
     height: max-content;
 
 }
@@ -25,17 +24,17 @@ span{
 .menu ul {
     margin: 0;
     padding: 0;
-    width: 13.1rem;
     height: 16.25rem;
+    width: 10rem;
     display: none;
-    background-color: rgba(182, 11, 0, 1);
-    opacity: 50%;
+    background-color: rgba(182, 11, 0, 0.5);
     z-index: 2;
 }
 .menu:hover ul{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 .button{
     display: flex;
@@ -50,14 +49,49 @@ span{
 }
 li{
     list-style: none;
-    width: 50%;
-    margin-left: 2.1rem;
-
 }
 li:hover {
     transform: scale(1.5, 1.5);
+    transition-duration: 1S;
+
 }
 a{
     color: white;
     font-size: 1.93rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .main-header{
+        height: 10.5rem;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    header img {
+        width: 22.5rem;
+        margin-top:11rem ;
+    }
+    .menu{
+        margin-right: 2rem;
+    }
+    .menu:hover ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .button{
+        display: none;
+    }
+    #ul{
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+        background-color: initial;
+        width: 40rem;
+
+    }
+    li a{
+        font-size: 3rem;
+    }
 }
