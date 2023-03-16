@@ -1,5 +1,7 @@
 .main-contact{
-    width: 80%;
+    height:100%;
+    width: 100%;
+    z-index: -1;
 }
 
 .container-contact {
@@ -72,36 +74,39 @@ h2 {
 {
     padding:0.01em 16px;
     font-size:16px;
+    display: flex;
+
 }
 .bouton
 {
     border:none;
     display:inline-block;
-    padding:8px 16px;
-    vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
-    color:inherit;
-    background-color:inherit;
+    background: rgba(182, 11, 0, 0);
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
+    padding: 0.4rem;
 }
 .noir
 {
-    color:#fff;
-    background-color:#000;
+    color:var(--textColor);
+    background-color:var(--secondaryColor);
+    border-radius: 5px;
+    box-shadow: var(--boxShadow);
 }
 .affichage
 {
+    padding-bottom:2rem ;
     position:absolute;
     right:0;
     top:0;
 }
 .boite
 {
-    display:none;
-    padding-top:100px;
+    display: none;
+    padding-top:200px;
     position:fixed;
     left:0;
     top:0;
@@ -117,6 +122,7 @@ h2 {
     width:600px;
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
     border:#000 2px solid;
+    /*display: none;*/
 }
 .animation-haut
 {
@@ -131,8 +137,8 @@ h2 {
 
 .bleu
 {
-    color:#fff;
-    background-color:#2b579a;
+    color:var(--textColor);
+    background-color:var(--primaryColor)
 }
 /*Partie Adresse*/
 
