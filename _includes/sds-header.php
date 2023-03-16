@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="../assets/css/modules/sds-variables.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
     <!-- Primary Meta Tags -->
     <meta name="title" content="Meta Tags — Preview, Edit and Generate">
     <meta name="description" content="The Body&Soul room specializing in rehabilitation sports, disabled sports and assisted sports!">
@@ -48,5 +50,5 @@
                             <li><a href="../sds-contact.php">Contact</a></li>
                         </ul>
             </menu>
-            <div class="logo"><img src="../assets/images/logo%20(1).png" alt=""></div>
+            <div class="logo"><img src="../assets/images/logo.png" alt=""></div>
 </header>

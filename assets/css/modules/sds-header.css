@@ -1,5 +1,5 @@
 .main-header{
-    height: 3.12rem;
+    height: calc(106px/2);
     justify-content: space-between;
     display: flex;
     background-color: var(--primaryColor);
@@ -19,7 +19,6 @@ span{
     height: 0.37rem;
     background-color: rgba(189, 180, 180, 1);
     border-radius: 1.18rem;
-
 }
 .menu ul {
     margin: 0;
@@ -40,7 +39,7 @@ span{
     display: flex;
     width: 5.31rem;
     height: 2.93rem;
-    margin-bottom: 0.18rem;
+    margin-bottom: 0.37rem;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -55,7 +54,8 @@ li:hover {
     transition-duration: 1S;
 
 }
-a{
+
+header a{
     color: white;
     font-size: 1.93rem;
 }
@@ -63,9 +63,9 @@ a{
 
 @media screen and (min-width: 1024px) {
     .main-header{
-        height: 10.5rem;
         flex-direction: row-reverse;
         align-items: center;
+        height: calc(360px/2);
     }
     header img {
         width: 22.5rem;
