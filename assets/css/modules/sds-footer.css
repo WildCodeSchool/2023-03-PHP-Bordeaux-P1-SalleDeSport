@@ -1,6 +1,4 @@
-body{
-    height: 100vh;
-}
+
 footer{
     width: 100%;
     display: flex;
@@ -57,7 +55,7 @@ svg:hover{
     border-radius: 25px;
     background-color: var(--secondaryColor);
 }
-a{
+.socialnetwork a{
     display: none;
 }
 
