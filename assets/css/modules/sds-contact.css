@@ -56,7 +56,7 @@ h2 {
 
 /*Partie Adresse*/
 
-.container-address img {
+.container-address iframe {
     width: 300Px;
     box-shadow: var(--boxShadow);
 }
@@ -78,7 +78,7 @@ h2 {
 
     .container-form,
     .container-form .textarea,
-    .container-address img {
+    .container-address iframe {
         width: 600px;
     }
 
