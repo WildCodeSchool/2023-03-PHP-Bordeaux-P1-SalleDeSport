@@ -1,3 +1,30 @@
-h1{
-    color: red;
+/*Image nav */
+.image{
+   max-width: 100%;
+   height: auto;
 }
+/* Article */
+h1{
+   color: var(--primaryColor);
+}
+
+/* Section */
+.section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: var(--bradius);
+}
+.photo{
+  width: 70px;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+
+
+ 
+ 
+
