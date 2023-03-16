@@ -9,6 +9,7 @@
 
 h2 {
     margin: 2rem;
+    color : var(--primaryColor);
 }
 
 .container-form {
