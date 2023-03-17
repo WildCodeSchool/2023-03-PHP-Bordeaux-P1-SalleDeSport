@@ -1,8 +1,13 @@
 footer {
     width: 100%;
     height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     background-color: var(--primaryColor);
     bottom: 0;
@@ -10,11 +15,18 @@ footer {
 }
 
 address {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .address {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     width: 50px;
     height: 50px;
@@ -25,7 +37,18 @@ address {
 .address a {
     display: none;
 }
-.
+.address:hover a{
+    display: initial;
+    content: attr(href);
+    position: absolute;
+    top: -109px;
+    left: 0;
+    background-color: var(--secondaryColor);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
 .tel{
     display: block;
     width: 50px;
@@ -48,21 +71,24 @@ address {
 .phone-button:hover:before {
     content: attr(href);
     position: absolute;
-    top: -25px;
-    left: 0;
-    background-color: #007bff;
-    color: #fff;
+    top: -40px;
+    left: -40px;
+    background-color: var(--secondaryColor);
+    color: black;
     padding: 5px;
     border-radius: 5px;
     white-space: nowrap;
 }
-
-
-
-
 .socialnetwork {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 50px;
     height: 50px;
@@ -71,6 +97,8 @@ address {
 }
 
 .socialnetwork:first-child {
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
     transform: scale(0.3);
 }
 
@@ -83,8 +111,14 @@ address {
     height: 3.1rem;
     border-radius: 1.55rem;
     background-color: var(--secondaryColor);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -93,11 +127,17 @@ address {
 }
 
 svg {
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.6);
     transform: scale(0.6);
 }
 
 svg:hover {
+    -webkit-transform: scale(1) rotate(360deg);
+    -ms-transform: scale(1) rotate(360deg);
     transform: scale(1) rotate(360deg);
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 
@@ -112,11 +152,21 @@ svg:hover {
 /*}*/
 
 @media screen and (min-width: 1024px) {
+    footer{
+        height: 10%;
+    }
     .socialnetwork {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
         flex-direction: row;
         width: 10%;
         background-color: initial;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
     }
 
     .socialnetwork.button {
@@ -128,29 +178,56 @@ svg:hover {
         height: 3.1rem;
         border-radius: 1.55rem;
         background-color: var(--secondaryColor);
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 
     address {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 
     address svg {
+        -webkit-transform: scale(0.3);
+        -ms-transform: scale(0.3);
         transform: scale(0.3);
         width: 20%;
     }
 
-    .address :hover a {
+    .address{
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
+    }
+    .address:hover a{
         display: initial;
+        content: attr(href);
+        position: absolute;
+        top: -113px;
+        left: -40px;
+        background-color: var(--secondaryColor);
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        white-space: nowrap;
     }
 
-    .tel p {
-        font-size: 2rem;
-        font-weight: bold;
+    .tel {
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
     }
 
 
