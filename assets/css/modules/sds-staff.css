@@ -19,9 +19,9 @@
     background-color: var(--secondaryColor);
     border-radius: var(--Bradius);
     box-shadow: var(--boxShadow);
-    margin: 0 1rem;
+    margin: 0 1.5rem;
     width : 18rem;
-    height: 30rem;
+    height: 28rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -95,4 +95,7 @@
     .card:hover .card-front{
         /*display: none;*/
     }
+}
+@media screen and (min-width: 768px) {
+
 }
