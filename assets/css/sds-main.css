@@ -13,11 +13,11 @@
 }
 
 h2{
-    color : var(--titleColor);
+    color : var(--primaryColor);
     margin: 2rem;
 }
 
 h3{
-    color : var(--titleColor);
+    color : var(--primaryColor);
 }
 
