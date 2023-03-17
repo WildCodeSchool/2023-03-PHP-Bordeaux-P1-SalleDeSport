@@ -9,10 +9,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: aquamarine;
  }
 
 /*Image nav */
-
 
 .image{
    max-width: 100%;
@@ -55,7 +55,7 @@ h2{
   margin: 40px auto;
   }
 
-.card{
+.card-home{
   display: flex;
   flex-direction:row;
   background-color: var(--secondaryColor);
@@ -65,8 +65,8 @@ h2{
   border-radius: var(--Bradius);
   align-items: center;
   box-shadow: var(--boxShadow);
-  width: auto;
-  height: auto;
+  width: 400px;
+  background-color:red;
 }  
 
 .photo{
