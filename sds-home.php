@@ -7,14 +7,17 @@ include "_includes/sds-header.php";
     </nav>
    
 <div>
-    <h1>Lorem fhlkthpo </h1>
+    <h1>La salle de sport équipée pour tous - Santé et bien-être à portée de main ! </h1>
     <p>
-        Lorem ipsum dolor sit amet consectetur  
-        Ducimus culpa laudantium nisi error magnam modi
-        pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, nulla temporibus voluptatum quibusdam laborum quos libero, necessitatibus sed magni voluptates eos inventore quia minus iste ratione beatae eius nihil debitis?
-     </p>
+     Lorem ipsum dolor sit amet, consectetur adipisicing
+     elit. Aspernatur cum dicta ipsum molestiae odio
+     quibusdam repellendus soluta vel. Aperiam dignissimos 
+     illo ipsum libero nemo odio quisquam quo ullam, ut voluptate?
+     Lorem ipsum dolor sit amet, consectetur adipisicing 
+     elit. Aspernatur cum dicta ipsum molestiae odio quibusdame?
+    </p>
 
-<img src="assets/images/imgArticle .png" alt="image article">
+<img src="assets/images/imgArticle .png" alt="image article" class="imageArticle">
 </div>
       
       <h2>Retour d'expérience</h2>
@@ -24,29 +27,38 @@ include "_includes/sds-header.php";
         <div class="card">
 
         <img src="assets/images/firstCom.png" alt="first comment"class="photo">
-        <p class="text" > llat deleniti sunt inventore pariatur cum iure odit, harum nam fuga, ullam 
-        pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        </p>
+           <p class="text" > llat deleniti sunt inventore pariatur cum iure odit, 
+        pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing 
+           </p>
+       
         </div>
+        
         <div class="card">
+        
         <img src="assets/images/secondCom.png" alt="second comment"class="photo">
-        <p class="text" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, corrupti perferendis 
-        pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        </p>
-       </div>
+           <p class="text" >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing
+           </p>
+       
+        </div>
+        
         <div class="card">
+        
         <img src="assets/images/thirdCom.png" alt="third comment"class="photo">
-        <p class="text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem praesentium dic 
-        pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        </p>
-       </div>
+           <p class="text" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing 
+           </p>
+       
+        </div>
+        
         <div class="card">
+        
         <img src="assets/images/fourthCom.png" alt="fourth comment"class="photo">
-        <p class="text" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus fugit aperiam 
-        pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        </p>
+            <p class="text" >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicin
+            </p>
              
-             </div>
+        </div>
     </div>
 
 
