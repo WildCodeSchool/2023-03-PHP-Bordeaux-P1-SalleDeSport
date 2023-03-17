@@ -7,7 +7,7 @@ include "_includes/sds-header.php";
 <img src="assets/images/background.jpg" alt="image" class="image">
     </nav>
    
-<div>
+<div class="text1">
     <h1>La salle de sport équipée pour tous - Santé et bien-être à portée de main ! </h1>
     <p>
      Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -17,9 +17,9 @@ include "_includes/sds-header.php";
      Lorem ipsum dolor sit amet, consectetur adipisicing 
      elit. Aspernatur cum dicta ipsum molestiae odio quibusdame?
     </p>
-
-<img src="assets/images/imgArticle .png" alt="image article" class="imageArticle">
 </div>
+<img src="assets/images/imgArticle .png" alt="image article" class="imageArticle">
+
       
       <h2>Retour d'expérience</h2>
 
