@@ -10,15 +10,15 @@ include "_includes/sds-header.php";
             <textarea class="textarea" name="textarea" placeholder="Votre message" cols="30" rows="5"></textarea><br>
 
         </form><!--<input class="submitMessage" type="submit" value="Envoyer">-->
-            <div id="auCentre">
+            <div id="center">
                 <button onclick="openAlert()" class="bouton noir" id="boiteD">Submit</button>
                 <div  class="boite">
                     <div class="boite-contenu animation-haut">
-                        <header class="conteneur bleu" >
+                        <header class="container-form-header" >
                             <span onclick="closeAlert()" class="bouton affichage">&times;</span>
                             <h2>Information</h2>
                         </header>
-                        <div class="conteneur">
+                        <div class="container-form">
                             <p>Nous avons bien reçu votre message. Nous en prenons connaissances</p>
 
                         </div>

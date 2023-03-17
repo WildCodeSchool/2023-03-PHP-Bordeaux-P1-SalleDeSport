@@ -70,12 +70,19 @@ h2 {
 }
 
 /*Boite de dialogue */
-.conteneur
+.container-form
 {
     padding:0.01em 16px;
     font-size:16px;
     display: flex;
 
+}
+container-form-header{
+    padding:0.01em 16px;
+    font-size:16px;
+    display: flex;
+    color:var(--textColor);
+    background-color:var(--primaryColor)
 }
 .bouton
 {
@@ -119,7 +126,7 @@ h2 {
 {
     margin:auto;
     background-color:#fff;
-    width:600px;
+    width:200px;
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
     border:#000 2px solid;
     /*display: none;*/
@@ -137,8 +144,7 @@ h2 {
 
 .bleu
 {
-    color:var(--textColor);
-    background-color:var(--primaryColor)
+
 }
 /*Partie Adresse*/
 
