@@ -1,24 +1,61 @@
+
+/*Main*/
+
+.home{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
 /*Image nav */
+
+
 .image{
    max-width: 100%;
    height: auto;
 }
 /* Article */
+
+
+
 h1{
    color: var(--primaryColor);
 }
 
 /* Section */
+
+
 .section{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  }
+
+
+.card{
+  display: flex;
+  flex-direction:row;
+  background-color: var(--secondaryColor);
+  padding: 0.5rem;
+  margin: 0.5rem;
+  justify-content: space-around;
+  border-radius: var(--Bradius);
   align-items: center;
-  border-radius: var(--bradius);
-}
+  
+}  
+
 .photo{
-  width: 70px;
+  width: 80px;
   height: auto;
   object-fit: cover;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+.text{
+color:var(--textColor);
+font-stretch: 5%;
+
 }
 
 
