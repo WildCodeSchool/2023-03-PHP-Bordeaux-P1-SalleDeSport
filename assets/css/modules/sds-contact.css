@@ -12,19 +12,18 @@
     margin-bottom: 80px;
 }
 
-/*Partie formulaire*/
-
-#center
-{
-    width:auto;
-    margin:auto;
-    margin-top:50px;
-}
-
 h2 {
     margin: 2rem;
     color : var(--primaryColor);
 }
+        /*Partie formulaire*/
+
+#center
+{
+    width:300px;
+    margin-bottom: 2rem;
+}
+
 
 .container-form {
     margin: 1rem;
@@ -69,8 +68,9 @@ h2 {
     cursor: pointer;
 }
 
-/*Boite de dialogue */
-.container-form
+           /*Boite de dialogue */
+
+.container-form2
 {
     padding:0.01em 16px;
     font-size:16px;
@@ -82,7 +82,7 @@ container-form-header{
     font-size:16px;
     display: flex;
     color:var(--textColor);
-    background-color:var(--primaryColor)
+    background-color:var(--primaryColor);
 }
 .bouton
 {
@@ -94,9 +94,9 @@ container-form-header{
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    padding: 0.4rem;
+    padding: 0 0.5rem;
 }
-.noir
+.submit
 {
     color:var(--textColor);
     background-color:var(--secondaryColor);
@@ -105,12 +105,17 @@ container-form-header{
 }
 .affichage
 {
-    padding-bottom:2rem ;
     position:absolute;
     right:0;
     top:0;
 }
-.boite
+h3{
+    background: var(--primaryColor);
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+}
+.box
 {
     display: none;
     padding-top:200px;
@@ -126,12 +131,12 @@ container-form-header{
 {
     margin:auto;
     background-color:#fff;
-    width:200px;
+    width:300px;
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
     border:#000 2px solid;
     /*display: none;*/
 }
-.animation-haut
+.animation-top
 {
     position:relative;
     animation:animerHaut 1s
@@ -142,11 +147,8 @@ container-form-header{
     to{top:0px;opacity:1}
 }
 
-.bleu
-{
 
-}
-/*Partie Adresse*/
+              /*Partie Adresse*/
 
 .container-address iframe {
     width: 300Px;
@@ -171,7 +173,8 @@ container-form-header{
 
     .container-form,
     .container-form .textarea,
-    .container-address iframe {
+    .container-address iframe,
+    #center {
         width: 600px;
     }
 
