@@ -38,7 +38,7 @@
     display: none;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 426px) {
 
     .card-container {
         overflow-x: visible;
@@ -50,6 +50,7 @@
         width : 18rem;
         height: 30rem;
         transform-style: preserve-3d;
+        transition: all 1s ease;
     }
 
     .card-front{
@@ -83,7 +84,7 @@
 
     .card:hover{
         transform: rotatey(180deg);
-        transition: all 2s ease;
+        transition: all 1s ease;
         /*animation-fill-mode: forwards;*/
     }
 

@@ -13,7 +13,7 @@ include "_includes/sds-header.php"
             <div class="card-back">
                 <img class="card-img-back" src="assets/images/prof1.jpg" alt="photo du professeur de sport Louis">
                 <h3>Louis</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam error inventore iusto, minus nihil qui ut? Distinctio dolorem fugiat hic id illum in ipsa itaque minus natus nihil, odit placeat quaerat quidem quisquam reiciendis sequi tempore totam vel voluptate voluptatem.</p>
             </div>
         </div>
         <div class="card">
@@ -24,7 +24,7 @@ include "_includes/sds-header.php"
             <div class="card-back">
                 <img class="card-img-back" src="assets/images/prof2.jpg" alt="photo du professeur de sport Marie">
                 <h3>Marie</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam error inventore iusto, minus nihil qui ut? Distinctio dolorem fugiat hic id illum in ipsa itaque minus natus nihil, odit placeat quaerat quidem quisquam reiciendis sequi tempore totam vel voluptate voluptatem.</p>
             </div>
         </div>
         <div class="card">
@@ -35,7 +35,7 @@ include "_includes/sds-header.php"
             <div class="card-back">
                 <img class="card-img-back" src="assets/images/prof3.jpeg" alt="photo du professeur de sport Aurore">
                 <h3>Aurore</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam error inventore iusto, minus nihil qui ut? Distinctio dolorem fugiat hic id illum in ipsa itaque minus natus nihil, odit placeat quaerat quidem quisquam reiciendis sequi tempore totam vel voluptate voluptatem.</p>
             </div>
         </div>
     </div>
