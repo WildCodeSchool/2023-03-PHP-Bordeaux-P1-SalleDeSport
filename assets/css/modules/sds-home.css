@@ -1,3 +1,4 @@
+
 /*Main*/
 
 .home{
@@ -7,6 +8,7 @@
  }
 
 /*Image nav */
+
 
 .image{
    max-width: 100%;
@@ -20,6 +22,8 @@
 }
 
 /* Article */
+
+
 
 h1{
    color: var(--primaryColor);
@@ -66,6 +70,7 @@ h2{
 color:var(--textColor);
 line-height: 1rem;
 }
+
 
 
 

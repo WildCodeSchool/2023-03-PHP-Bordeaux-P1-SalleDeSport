@@ -1,6 +1,7 @@
 <?php
 include "_includes/sds-header.php";
 ?>
+
  <main class="home"> 
     <nav class="image">
 <img src="assets/images/background.jpg" alt="image" class="image">
@@ -22,7 +23,9 @@ include "_includes/sds-header.php";
       
       <h2>Retour d'expérience</h2>
 
+
     <div class="section">
+
 
         <div class="card">
 
@@ -64,7 +67,9 @@ include "_includes/sds-header.php";
 
 </main>
 <?php
+
 include "_includes/sds-footer.php";
+
 ?>
   
 
