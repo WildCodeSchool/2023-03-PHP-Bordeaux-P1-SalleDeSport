@@ -1,3 +1,4 @@
+
 /*Main*/
 
 .home{
@@ -7,17 +8,21 @@
 
 /*Image nav */
 
+
 .image{
    max-width: 100%;
    height: auto;
 }
 /* Article */
 
+
+
 h1{
    color: var(--primaryColor);
 }
 
 /* Section */
+
 
 .section{
   display: flex;
@@ -50,7 +55,9 @@ h1{
 .text{
 color:var(--textColor);
 font-stretch: 5%;
+
 }
+
 
 
 

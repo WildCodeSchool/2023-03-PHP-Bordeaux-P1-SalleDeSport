@@ -1,4 +1,4 @@
-const message =
+/*const message =
     " Nous avons bien reçu votre demande. Nous en prenons connaissance au plus vite";
 
 document
@@ -6,4 +6,5 @@ document
     .addEventListener("submit", function (event) {
         event.preventDefault();
         alert(message);
-    });
+    });*/
+

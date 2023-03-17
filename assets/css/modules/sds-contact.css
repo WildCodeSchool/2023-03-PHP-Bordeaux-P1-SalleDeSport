@@ -1,14 +1,29 @@
+.main-contact{
+    height:100%;
+    width: 100%;
+    z-index: -1;
+}
+
 .container-contact {
     display: flex;
     flex-direction: column;
     background: var(--background);
     align-items: center;
+    margin-bottom: 80px;
 }
 
 /*Partie formulaire*/
 
+#center
+{
+    width:auto;
+    margin:auto;
+    margin-top:50px;
+}
+
 h2 {
     margin: 2rem;
+    color : var(--primaryColor);
 }
 
 .container-form {
@@ -54,11 +69,83 @@ h2 {
     cursor: pointer;
 }
 
+/*Boite de dialogue */
+.conteneur
+{
+    padding:0.01em 16px;
+    font-size:16px;
+    display: flex;
+
+}
+.bouton
+{
+    border:none;
+    display:inline-block;
+    overflow:hidden;
+    text-decoration:none;
+    background: rgba(182, 11, 0, 0);
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    padding: 0.4rem;
+}
+.noir
+{
+    color:var(--textColor);
+    background-color:var(--secondaryColor);
+    border-radius: 5px;
+    box-shadow: var(--boxShadow);
+}
+.affichage
+{
+    padding-bottom:2rem ;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.boite
+{
+    display: none;
+    padding-top:200px;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    /*attribut background avec opacity en 4ime caratère avec rgba*/
+    background-color:rgba(0,0,0,0.4);
+}
+.boite-contenu
+{
+    margin:auto;
+    background-color:#fff;
+    width:600px;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    border:#000 2px solid;
+    /*display: none;*/
+}
+.animation-haut
+{
+    position:relative;
+    animation:animerHaut 1s
+}
+@keyframes animerHaut
+{
+    from{top:-300px;opacity:0}
+    to{top:0px;opacity:1}
+}
+
+.bleu
+{
+    color:var(--textColor);
+    background-color:var(--primaryColor)
+}
 /*Partie Adresse*/
 
-.container-address img {
+.container-address iframe {
     width: 300Px;
     box-shadow: var(--boxShadow);
+    border-radius: 5px;
 }
 
 .container-address,
@@ -78,8 +165,16 @@ h2 {
 
     .container-form,
     .container-form .textarea,
-    .container-address img {
+    .container-address iframe {
         width: 600px;
+    }
+
+}
+@media screen and (min-width: 1500px) {
+    .container-form,
+    .container-form .textarea,
+    .container-address iframe {
+        width: 1200px;
     }
 
 }
