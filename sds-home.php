@@ -6,9 +6,8 @@ include "_includes/sds-header.php";
     <nav class="image">
 <img src="assets/images/background.jpg" alt="image" class="image">
     </nav>
-   
+   <h1>Body and soul</h1>
 <div class="text1">
-    <h1>La salle de sport équipée pour tous - Santé et bien-être à portée de main ! </h1>
     <p>
      Lorem ipsum dolor sit amet, consectetur adipisicing
      elit. Aspernatur cum dicta ipsum molestiae odio
@@ -27,7 +26,7 @@ include "_includes/sds-header.php";
     <div class="section">
 
 
-        <div class="card">
+        <div class="card-home">
 
         <img src="assets/images/firstCom.png" alt="first comment"class="photo">
            <p class="text" > llat deleniti sunt inventore pariatur cum iure odit, 
@@ -36,7 +35,7 @@ include "_includes/sds-header.php";
        
         </div>
         
-        <div class="card">
+        <div class="card-home">
         
         <img src="assets/images/secondCom.png" alt="second comment"class="photo">
            <p class="text" >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -45,7 +44,7 @@ include "_includes/sds-header.php";
        
         </div>
         
-        <div class="card">
+        <div class="card-home">
         
         <img src="assets/images/thirdCom.png" alt="third comment"class="photo">
            <p class="text" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -54,7 +53,7 @@ include "_includes/sds-header.php";
        
         </div>
         
-        <div class="card">
+        <div class="card-home">
         
         <img src="assets/images/fourthCom.png" alt="fourth comment"class="photo">
             <p class="text" >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
