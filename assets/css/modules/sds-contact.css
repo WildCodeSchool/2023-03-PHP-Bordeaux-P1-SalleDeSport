@@ -1,5 +1,5 @@
-.main-contact{
-    height:100%;
+.main-contact {
+    height: 100%;
     width: 100%;
     z-index: -1;
 }
@@ -9,181 +9,105 @@
     flex-direction: column;
     background: var(--background);
     align-items: center;
-    margin-bottom: 80px;
+    width: 80%;
+    margin: auto;
 }
 
 h2 {
     margin: 2rem;
-    color : var(--primaryColor);
-}
-        /*Partie formulaire*/
-
-#center
-{
-    width:300px;
-    margin-bottom: 2rem;
+    color: var(--primaryColor);
 }
 
+/*Partie formulaire*/
 
-.container-form {
-    margin: 1rem;
-}
-
-.container-form .input {
-    width: 300px;
+.input {
+    width: 100%;
     margin: 0.5rem 0;
-    padding: 0.5rem;
-    outline: none;
     border: none;
     background: var(--secondaryColor);
     border-radius: 5px;
     box-shadow: var(--boxShadow);
 }
 
-.container-form .textarea {
-    width: 300px;
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    outline: none;
-    border: none;
-    background: var(--secondaryColor);
-    border-radius: 5px;
-    box-shadow: var(--boxShadow);
+.textarea {
     resize: none;
 }
 
-
-.container-form .submitMessage {
-    padding: 0 1rem;
-    margin: 0.5rem 0;
-    width: 5rem;
-    background-color: var(--secondaryColor);
-    color: var(--textColor);
-    border: none;
-    border-radius: 5px;
-    box-shadow: var(--boxShadow);
-}
-
-.container-form .submitMessage:hover {
+.submit {
+    width: 20%;
     cursor: pointer;
-}
-
-           /*Boite de dialogue */
-
-.container-form2
-{
-    padding:0.01em 16px;
-    font-size:16px;
-    display: flex;
+    color: var(--textColor);
+    margin-bottom: 3rem;
 
 }
-container-form-header{
-    padding:0.01em 16px;
-    font-size:16px;
-    display: flex;
-    color:var(--textColor);
-    background-color:var(--primaryColor);
-}
-.bouton
-{
-    border:none;
-    display:inline-block;
-    overflow:hidden;
-    text-decoration:none;
-    background: rgba(182, 11, 0, 0);
-    text-align:center;
-    cursor:pointer;
-    white-space:nowrap;
-    padding: 0 0.5rem;
-}
-.submit
-{
-    color:var(--textColor);
-    background-color:var(--secondaryColor);
-    border-radius: 5px;
-    box-shadow: var(--boxShadow);
-}
-.affichage
-{
-    position:absolute;
-    right:0;
-    top:0;
-}
-h4{
-    background: var(--primaryColor);
-    border-bottom: 1px solid black;
-    text-align: center;
-    color: white;
-}
-.box
-{
+
+/*Boite de dialogue */
+
+.box {
     display: none;
-    padding-top:200px;
-    position:fixed;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    /*attribut background avec opacity en 4ime caratère avec rgba*/
-    background-color:rgba(0,0,0,0.4);
-}
-.boite-contenu
-{
-    margin:auto;
-    background-color:#fff;
-    width:300px;
-    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-    border:#000 2px solid;
-    /*display: none;*/
-}
-.animation-top
-{
-    position:relative;
-    animation:animerHaut 1s
-}
-@keyframes animerHaut
-{
-    from{top:-300px;opacity:0}
-    to{top:0px;opacity:1}
+    padding-top: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
+.dialogBox {
+    margin: auto;
+    background-color: var(--secondaryColor);
+    width: 70%;
+    border: 2px solid black;
+    position: relative;
+    animation: top 1s
+}
 
-              /*Partie Adresse*/
+.dialogBox-title {
+    display: flex;
+    padding: 0 2rem;
+    color: var(--secondaryColor);
+    background-color: var(--primaryColor);
+    border-bottom: 2px solid black;
+}
 
-.container-address iframe {
-    width: 300Px;
+.close {
+    cursor: pointer;
+    padding: 0 0.5rem;
+    position: absolute;
+    right: 0;
+}
+
+@keyframes top {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0px;
+        opacity: 1
+    }
+}
+
+/*Partie Adresse*/
+
+iframe {
+    width: 100%;
     box-shadow: var(--boxShadow);
     border-radius: 5px;
 }
-
-.container-address,
-.container-address h3 {
-    margin: 1rem 0;
+.adress{
+    width: 100%;
+    margin-top: 2REm;
 }
-
-.container-address p {
+p{
     margin: 0;
 }
 
 
-@media screen and (min-width: 475px) {
-    .container-contact h2 {
-        margin: 1rem 0 0 0;
-    }
+@media screen and (min-width: 475px) {}
 
-    .container-form,
-    .container-form .textarea,
-    .container-address iframe,
-    #center {
-        width: 600px;
-    }
-
-}
 @media screen and (min-width: 1500px) {
-    .container-form,
-    .container-form .textarea,
-    .container-address iframe {
-        width: 1200px;
-    }
+
 
 }
