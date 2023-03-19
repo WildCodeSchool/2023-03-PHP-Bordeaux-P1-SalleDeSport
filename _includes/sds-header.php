@@ -39,7 +39,7 @@
           content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
     <meta property="twitter:image"
           content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-    <title>Gym'Naze</title>
+    <title>Body&Soul</title>
 </head>
 <body>
 <header class="main-header">

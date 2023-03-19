@@ -24,15 +24,16 @@ header img {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
+    width: 50%;
 }
 
 .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 5.31rem;
-    height: 2.93rem;
-    margin-bottom: 0.37rem;
+    width: 5rem;
+    height: 2.5rem;
+    margin-top: 0.37rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -55,10 +56,10 @@ span {
 }
 
 .menu ul {
-    margin: 0;
+    margin-top: 7px;
     padding: 0;
     height: 16.25rem;
-    width: 10rem;
+    width: 100%;
     display: none;
     background-color: rgba(182, 11, 0, 0.5);
     z-index: 2;
@@ -90,7 +91,9 @@ li:hover {
     -webkit-transition-duration: 1S;
     -o-transition-duration: 1S;
     transition-duration: 1S;
-
+}
+li:not(:hover){
+    transition: transform 1s ease-in;
 }
 
 header a {
@@ -108,16 +111,17 @@ header a {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        height: calc(360px / 2);
+        height: calc(240px / 2);
     }
 
     header img {
-        width: 22.5rem;
-        margin-top: 11rem;
+        width: 18.5rem;
+        margin-top: 7rem;
     }
 
     .menu {
         margin-right: 2rem;
+        flex-direction: row-reverse;
     }
 
     .menu:hover ul {
@@ -152,5 +156,6 @@ header a {
 
     li a {
         font-size: 3rem;
+        text-decoration: none;
     }
 }
