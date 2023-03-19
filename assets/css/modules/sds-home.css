@@ -9,18 +9,21 @@
 /*Image nav */
 
 .image{
-   background-image:url(/assets/Images/background.jpg);
+  background-image:url(/assets/Images/background.jpg);
    background-repeat: no-repeat;
    max-width: 100%;
    height: auto;
+   
 }
 
 /* Article */
 
-
-
 h1{
    color: var(--primaryColor);
+   margin-left: 10px;
+}
+.text1{
+  padding: 10px;
 }
 
 /* Section */
