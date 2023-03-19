@@ -14,12 +14,18 @@
 }
 
 h2 {
-    margin: 2rem;
+    margin: 2rem auto;
     color: var(--primaryColor);
 }
 
 /*Partie formulaire*/
 
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90%;
+}
 .input {
     width: 100%;
     margin: 0.5rem 0;
@@ -90,6 +96,9 @@ h2 {
 }
 
 /*Partie Adresse*/
+.container-adress{
+
+}
 
 iframe {
     width: 100%;
@@ -98,14 +107,35 @@ iframe {
 }
 .adress{
     width: 100%;
-    margin-top: 2REm;
 }
 p{
     margin: 0;
 }
+.underline{
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+@media screen and (min-width: 475px) {
 
-
-@media screen and (min-width: 475px) {}
+    .info{
+        width: 40%;
+    }
+    .container-adress{
+display: flex;
+        width: 80%;
+    }
+    .adress {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin-left: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    iframe{
+        margin-bottom: 1rem;
+    }
+}
 
 @media screen and (min-width: 1500px) {
 
