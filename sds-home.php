@@ -3,8 +3,8 @@ include "_includes/sds-header.php";
 ?>
 
  <main class="home"> 
-    <nav class="image">
-<img src="assets/images/background.jpg" alt="image" >
+    <nav>
+<img src="/assets/Images/background.jpg" alt="image" class="image">
     </nav>
    <h1>Body and soul</h1>
 <div class="text1">
