@@ -10,8 +10,9 @@
 
 
 .image{
-   max-width: 100%;
-   height: auto;
+   background-image:url(images/background-image.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
 }
 /* Article */
 
@@ -33,7 +34,7 @@ h1{
   }
 
 
-.card{
+.card-home{
   display: flex;
   flex-direction:row;
   background-color: var(--secondaryColor);
@@ -42,7 +43,7 @@ h1{
   justify-content: space-around;
   border-radius: var(--Bradius);
   align-items: center;
-  
+  background-color: red;
 }  
 
 .photo{
