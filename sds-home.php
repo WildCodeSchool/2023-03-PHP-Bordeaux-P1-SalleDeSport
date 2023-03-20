@@ -2,9 +2,10 @@
 include "_includes/sds-header.php";
 ?>
 
- <main class="home"> 
+ <main class="home">
+     <div class="imgbackground"></div>
 
-   <h1>Body and soul</h1>
+     <h1>Body and soul</h1>
 <div class="text1">
     <p>
      Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -18,9 +19,6 @@ include "_includes/sds-header.php";
 
 <img src="assets/images/imgArticle.png" alt="image article" class="imageArticle">
 
-
-  <img src="/assets/images/imgArticle.png" alt="image article"class="image-article">
-      
       <h2>Retour d'expérience</h2>
 
 

@@ -1,11 +1,8 @@
 
 /*Main*/
-
 .home{
-  margin-top: 14rem;
   scroll-behavior: smooth;
   box-sizing: border-box;
-
 }
 
 /* Article */
