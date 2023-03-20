@@ -1,4 +1,6 @@
 .main-header {
+    position: absolute;
+    width: 100%;
     height: calc(106px / 2);
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -11,7 +13,13 @@
 
 header img {
     width: 6.25rem;
-    
+}
+.imgbackground{
+    background-image: url(/assets/Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
 
 .menu {

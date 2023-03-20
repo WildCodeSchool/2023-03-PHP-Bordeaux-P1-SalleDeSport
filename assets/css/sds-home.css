@@ -5,6 +5,9 @@
   padding: 0;
 }
 .home{
+    background-image: url(/assets/Images/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
