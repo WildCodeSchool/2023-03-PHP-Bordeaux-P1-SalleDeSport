@@ -15,8 +15,11 @@ include "_includes/sds-header.php";
      elit. Aspernatur cum dicta ipsum molestiae odio quibusdame?
     </p>
 </div>
+
 <img src="assets/images/imgArticle.png" alt="image article" class="imageArticle">
 
+
+  <img src="/assets/images/imgArticle.png" alt="image article"class="image-article">
       
       <h2>Retour d'expérience</h2>
 
