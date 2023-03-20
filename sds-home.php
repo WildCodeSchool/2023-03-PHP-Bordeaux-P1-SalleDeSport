@@ -3,9 +3,7 @@ include "_includes/sds-header.php";
 ?>
 
  <main class="home"> 
-    <nav>
-<img src="/assets/Images/background.jpg" alt="image" class="image">
-    </nav>
+
    <h1>Body and soul</h1>
 <div class="text1">
     <p>
@@ -17,7 +15,7 @@ include "_includes/sds-header.php";
      elit. Aspernatur cum dicta ipsum molestiae odio quibusdame?
     </p>
 </div>
-<img src="assets/images/imgArticle .png" alt="image article" class="imageArticle">
+<img src="assets/images/imgArticle.png" alt="image article" class="imageArticle">
 
       
       <h2>Retour d'expérience</h2>

@@ -7,7 +7,6 @@
     display: -ms-flexbox;
     display: flex;
     background-color: var(--primaryColor);
-    background-image: url(/assets/Images/background.jpg);
 }
 
 header img {

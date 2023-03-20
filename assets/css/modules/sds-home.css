@@ -2,18 +2,11 @@
 /*Main*/
 
 .home{
+  margin-top: 14rem;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
-/*Image nav */
-
-.image{
-   background-image:url(/assets/Images/background.jpg);
-   background-repeat: no-repeat;
-   max-width: 100%;
-   height: auto;
-}
 
 /* Article */
 

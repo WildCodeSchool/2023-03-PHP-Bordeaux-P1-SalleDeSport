@@ -59,33 +59,40 @@ svg{
 }
 .address{
     display: flex;
+
 }
 address{
-    display: none
-}
+    overflow: hidden;
+    width: 0;
+    transition: width 0.5s ease-out;}
 .address:hover{
     width: min-content;
-
 }
 .address:hover address{
     display: initial;
     width: 150px;
     text-decoration: none;
     color: black;
+    transition: all 0.5s ease-out;}
+
+.tel {
+    display: flex;
+
 }
 
-.tel{
-    display: flex;
-}
-.tel a{
-    display: none;
-}
-.tel:hover{
+.tel:hover {
     width: min-content;
 }
-.tel:hover a{
+.tel a{
+    overflow: hidden;
+    width: 0;
+    transition: width 0.5s ease-out;
+}
+.tel:hover a {
     display: initial;
     text-decoration: none;
     color: black;
+    width: 150px;
+    transition: width 0.5s ease-out;
 }
 
