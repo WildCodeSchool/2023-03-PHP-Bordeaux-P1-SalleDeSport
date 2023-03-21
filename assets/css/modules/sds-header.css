@@ -1,8 +1,5 @@
 .main-header {
-
-
     height: calc(106px / 2);
-
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -10,6 +7,7 @@
     display: -ms-flexbox;
     display: flex;
     background-color: var(--primaryColor);
+    z-index: 1;
 }
 
 header img {
@@ -59,7 +57,7 @@ header img {
 
 span {
     display: block;
-    width: 3.93rem;
+    width: 2.93rem;
     height: 0.37rem;
     background-color: rgba(189, 180, 180, 1);
     border-radius: 1.18rem;
