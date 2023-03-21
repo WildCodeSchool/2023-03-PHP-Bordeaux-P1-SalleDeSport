@@ -1,7 +1,7 @@
 /*Main*/
 .imgbackground {
     width: 100vw;
-    height: 200px;
+    height:250px;
     z-index: -1;
 }
 
@@ -75,7 +75,7 @@ h1 {
 
 /* Responsive */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .image-article {
         margin-left: 30px;
         margin: 1rem;
@@ -85,9 +85,27 @@ h1 {
         flex-direction: row-reverse;
         margin: 1rem;
     }
+    .article p {
+       margin-top: 10px;
+    }
+    .section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px; 
+    }
+    .card-home{
+      display: flex;
+      align-items: center;
+      background-color: var(--secondaryColor);
+      border-radius: var(--Bradius); 
+    }
+    .imgbackground {
+      width: 100vw;
+      height:410px;
+      z-index: -1;
+  }
+  }
 
-
-}
 
 
  

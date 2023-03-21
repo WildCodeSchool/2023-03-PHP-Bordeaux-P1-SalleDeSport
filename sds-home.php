@@ -14,16 +14,19 @@ include "_includes/sds-header.php";
             illo ipsum libero nemo odio quisquam quo ullam, ut voluptate?
             Lorem ipsum dolor sit amet, consectetur adipisicing
             elit. Aspernatur cum dicta ipsum molestiae odio quibusdame?
+            Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Aspernatur cum dicta ipsum molestiae odio quibusdame
+            Lorem ipsum dolor sit amet, consectetur adipisicing.
         </p>
 
         <img src="assets/images/imgArticle.png" alt="image_article" class="image-article">
     </div>
-
+      
+    <h2 class="experienceTitle">Retour d'expérience</h2>
 
     <div class="section">
-        <h2 class="experienceTitle">Retour d'expérience</h2>
 
-        <div class="card-home">
+         <div class="card-home">
 
             <img src="assets/images/firstCom.png" alt="first comment" class="photo">
             <p class="text"> llat deleniti sunt inventore pariatur cum iure odit,
