@@ -1,12 +1,14 @@
 /* Card staff */
 
+/* version mobile*/
+
 .card-container{
     display: flex;
     align-items: center;
     overflow-x: scroll;
     padding: 1rem 0;
     scroll-snap-type: x mandatory;
-    overscroll-behavior: contain;
+    margin-bottom: 2rem;
 }
 
 .card-staff{
@@ -19,7 +21,7 @@
     background-color: var(--secondaryColor);
     border-radius: var(--Bradius);
     box-shadow: var(--boxShadow);
-    margin: 0 2.5rem;
+    margin: 0 1.5rem;
     width : 18rem;
     height: 28rem;
     display: flex;
@@ -42,24 +44,24 @@
     display: none;
 }
 
+/*version tablette et ordinateur*/
 
-
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 769px) {
 
     .card-container {
         overflow-x: visible;
         justify-content: space-around;
     }
 
-    .card-staff{
+    .card-staff {
         position: relative;
-        width : 18rem;
+        width: 18rem;
         height: 30rem;
         transform-style: preserve-3d;
         transition: all 1s ease;
     }
 
-    .card-front{
+    .card-front {
         background-color: var(--secondaryColor);
         border-radius: var(--Bradius);
         box-shadow: var(--boxShadow);
@@ -74,7 +76,7 @@
         height: 100%;
     }
 
-    .card-back{
+    .card-back {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -82,26 +84,12 @@
         transform: rotateY(180deg);
     }
 
-    .card-img-front{
+    .card-img-front {
         width: 14rem;
     }
 
-    /* retournement des cards*/
-
-    .card-staff:hover{
+    .card-staff:hover {
         transform: rotatey(180deg);
         transition: all 1s ease;
-        /*animation-fill-mode: forwards;*/
     }
-
-    .card-staff:hover .card-back{
-        /* display: initial;*/
-    }
-
-    .card-staff:hover .card-front{
-        /*display: none;*/
-    }
-}
-@media screen and (min-width: 768px) {
-
 }
