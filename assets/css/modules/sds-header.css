@@ -1,7 +1,7 @@
 .main-header {
     position: absolute;
     width: 100%;
-    height: calc(106px / 2);
+    height: 10vh;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
