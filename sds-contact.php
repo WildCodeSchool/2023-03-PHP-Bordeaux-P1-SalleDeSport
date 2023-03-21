@@ -1,18 +1,20 @@
 <?php
 include "_includes/sds-header.php";
 ?>
-<div id="main" class="main-contact">
-    <div class="container-contact">
-        <form action="">
+<div class="main-contact" id="main">
+   <div class="container-contact">
+        <form>
             <h2>Pour nous contacter</h2>
-            <input class="input info" type="text" placeholder="Name">
-            <input class="input info" type="email" placeholder="mon.email@exemple.com">
+            <label for="name"></label>
+            <input class="input info" type="text" placeholder="Name" id="name">
+            <label for="email"></label>
+            <input class="input info" type="email" placeholder="mon.email@exemple.com" id="email">
             <textarea class="input textarea" name="textarea" placeholder="Votre message" cols="30" rows="5"></textarea>
-            <button onclick="openAlert()" class="input submit">Submit
+            <button  onclick="openAlert()" class="input submit" type="submit">Submit
             </button>
         </form>
         <div class="box">
-            <div class="dialogBox">
+            <div class="dialogBox anim-haut">
                 <div class="dialogBox-title">
                     <div onclick="closeAlert()" class="close">&times;</div>
                     <h4>Information</h4>
@@ -26,8 +28,8 @@ include "_includes/sds-header.php";
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="adress">
                 <p class="underline">Adresse</p>
-                <p>171 Rue Lucien Faure</p>
-                <p> 33000 Bordeaux</p>
+                <p> 171 Rue Lucien Faure</p>
+                <p>33000 Bordeaux</p>
             </div>
         </div>
     </div>
@@ -37,6 +39,7 @@ include "_includes/sds-header.php";
     let alert = document.querySelector(".box")
 
     function openAlert() {
+        event.preventDefault();
         alert.style.display = 'block'
     }
 

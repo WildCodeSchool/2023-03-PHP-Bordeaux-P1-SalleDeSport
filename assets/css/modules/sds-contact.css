@@ -1,7 +1,7 @@
 .main-contact {
     height: 100%;
     width: 100%;
-    z-index: -1;
+
 }
 
 .container-contact {
@@ -13,19 +13,16 @@
     margin: auto;
 }
 
-h2 {
-    margin: 2rem auto;
-    color: var(--primaryColor);
-}
 
 /*Partie formulaire*/
 
-form{
+form {
     display: flex;
     flex-direction: column;
     justify-content: left;
     width: 90%;
 }
+
 .input {
     width: 100%;
     margin: 0.5rem 0;
@@ -33,6 +30,7 @@ form{
     background: var(--secondaryColor);
     border-radius: 5px;
     box-shadow: var(--boxShadow);
+    padding: 0.5rem;
 }
 
 .textarea {
@@ -45,6 +43,10 @@ form{
     color: var(--textColor);
     margin-bottom: 3rem;
 
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 /*Boite de dialogue */
@@ -65,8 +67,12 @@ form{
     background-color: var(--secondaryColor);
     width: 70%;
     border: 2px solid black;
+}
+
+.anim-haut {
     position: relative;
-    animation: top 1s
+    animation: top 1s;
+
 }
 
 .dialogBox-title {
@@ -96,48 +102,60 @@ form{
 }
 
 /*Partie Adresse*/
-.container-adress{
 
-}
 
 iframe {
+
     width: 100%;
     box-shadow: var(--boxShadow);
     border-radius: 5px;
 }
-.adress{
+
+.adress {
     width: 100%;
 }
-p{
-    margin: 0;
-}
-.underline{
+
+
+
+.underline {
     font-size: 1.2rem;
     text-decoration: underline;
 }
-@media screen and (min-width: 475px) {
 
-    .info{
+@media screen and (min-width: 425px) {
+
+    .info {
         width: 40%;
     }
-    .container-adress{
-display: flex;
+
+    .container-adress {
+        display: flex;
         width: 80%;
     }
+
     .adress {
-        display: flex;
+        display: initial;
         flex-direction: column;
         width: 30%;
         margin-left: 1rem;
         align-items: center;
         justify-content: center;
     }
-    iframe{
+
+    iframe {
         margin-bottom: 1rem;
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (max-width: 426px) and (min-width: 1024px) {
+    p{
+width: 100%;
+    }
+}
 
+@media screen and (min-width: 1025px) {
+.info {
+    width: 30%;
+}
 
 }
