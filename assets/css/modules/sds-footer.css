@@ -9,31 +9,64 @@ footer a{
     line-height: 15px;
     color: black;
 }
+.address{
+    display: flex;
 
+}
+address{
+    overflow: hidden;
+    width: 0;
+    transition: width 0.5s ease-out;
+}
+.address:hover{
+    width: min-content;
+}
+.address:hover address{
+    display: initial;
+    width: 150px;
+    text-decoration: none;
+    color: black;
+}
+.tel {
+    display: flex;
 
+}
+
+.tel:hover {
+    width: min-content;
+}
+.tel a{
+    overflow: hidden;
+    width: 0;
+    transition: width 0.5s ease-out;
+}
+.tel:hover a {
+    display: initial;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    transition: width 0.5s ease-out;
+}
 .socialnetwork {
     position: relative;
-    /*display: -webkit-box;*/
-    /*display: -ms-flexbox;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column-reverse;
-    /*-webkit-box-orient: vertical;*/
-    /*-webkit-box-align: center;*/
-    /*-ms-flex-align: center;*/
-    /*align-items: center;*/
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .container-iconeCircle{
-    /*display: flex;*/
-    /*flex-direction: column-reverse;*/
-    /*height: 0;*/
-    /*overflow: hidden;*/
     position: relative;
-
 }
 .container-iconeCircle {
     position: absolute;
     bottom: 50px;
-    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: width 0.5s ease-out;
 }
 .socialnetwork:hover .circle {
     display: flex;
@@ -42,9 +75,10 @@ footer a{
 .socialnetwork:hover .container-iconeCircle{
     display: flex;
     flex-direction: column;
+    height: auto;
+    transition: width 0.5s ease-out;
 
 }
-
 .iconeCircle {
     width: 45px;
     height: 45px;
@@ -72,43 +106,17 @@ svg{
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
-.address{
-    display: flex;
-
+#facebook{
+    background-color: #3b5998;
 }
-address{
-    overflow: hidden;
-    width: 0;
-    transition: width 0.5s ease-out;
+#twitter{
+    background-color: #00acee;
 }
-.address:hover{
-    width: min-content;
+#insta{
+background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
 }
-.address:hover address{
-    display: initial;
-    width: 150px;
-    text-decoration: none;
-    color: black;
+#tiktok{
+    background: linear-gradient(90deg, #69c9d0, #ee1d52);
 }
 
-.tel {
-    display: flex;
-
-}
-
-.tel:hover {
-    width: min-content;
-}
-.tel a{
-    overflow: hidden;
-    width: 0;
-    transition: width 0.5s ease-out;
-}
-.tel:hover a {
-    display: initial;
-    text-decoration: none;
-    color: black;
-    width: 150px;
-    transition: width 0.5s ease-out;
-}
 
