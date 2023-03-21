@@ -5,47 +5,50 @@
 @import "modules/sds-staff.css";
 @import "modules/sds-footer.css";
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-h2{
-    color : var(--primaryColor);
-  text-align: center;
+h2 {
+    color: var(--primaryColor);
+    text-align: center;
 }
 
-h3{
-    color : var(--primaryColor);
+h3 {
+    color: var(--primaryColor);
 }
 
-.container-grid{
+.container-grid {
     display: grid;
     grid:
-"header" 53px
+    "header" 53px
     "main" 1fr
-    "footer" 100px
+    "footer" 70px
     /100vw;
     height: 100vh;
 }
-#header{
+
+#header {
     grid-area: header;
 }
-#main{
+
+#main {
     grid-area: main;
 }
-#footer{
+
+#footer {
     grid-area: footer;
 }
 
-@media  screen and (min-width: 475px){
+@media screen and (min-width: 425px) {
 
-    .container-grid{
+    .container-grid {
         display: grid;
         grid:
-"header" 100px
+    "header" 100px
     "main" 1fr
     "footer" 100px
     /100vw;
