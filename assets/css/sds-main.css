@@ -55,3 +55,21 @@ h3 {
         height: 100vh;
     }
 }
+
+/*Modif à confirmer avec tout le monde */
+@media screen and (min-width: 1024px){
+    h2 {
+        margin: 2rem;
+    }
+    .container-grid {
+        display: grid;
+        grid:
+    "header" 120px
+    "main" 1fr
+    "footer" 70px
+    /1fr;
+        height: 100vh;
+        max-width: 1400px;
+        margin: auto;
+    }
+}
