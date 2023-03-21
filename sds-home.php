@@ -6,7 +6,7 @@ include "_includes/sds-header.php";
      <div class="imgbackground"></div>
 
      <h1>Body and soul</h1>
-<div class="text1">
+<div class="article">
     <p>
      Lorem ipsum dolor sit amet, consectetur adipisicing
      elit. Aspernatur cum dicta ipsum molestiae odio
@@ -15,15 +15,14 @@ include "_includes/sds-header.php";
      Lorem ipsum dolor sit amet, consectetur adipisicing 
      elit. Aspernatur cum dicta ipsum molestiae odio quibusdame?
     </p>
+
+<img src="assets/images/imgArticle.png" alt="image_article" class="image-article">
 </div>
 
-<img src="assets/images/imgArticle.png" alt="image_article" class="imageArticle">
-
-      <h2>Retour d'expérience</h2>
 
 
     <div class="section">
-
+    <h2 class="experienceTitle">Retour d'expérience</h2>
 
         <div class="card-home">
 

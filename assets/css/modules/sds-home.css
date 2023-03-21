@@ -10,45 +10,51 @@
 
 h1{
    color: var(--primaryColor);
-   margin-left: 56px;
+   display: flex;
+   justify-content: center;
+   padding: 2rem 0;
 }
 
 .image-article{
-  display: block;
-  width: 311px;
+
+  width: 100%;
   height: 300px;
-  margin-left: 57px;
-  margin-right: 28px;
+
   }
+.article{
+display: flex;
+flex-direction: column;
+margin: 0 1rem;
+text-align: justify;
 
-.text1{
-  padding: 20px;
-  margin-left:  40px;
 }
-
+.article p{
+  padding-bottom: 2rem;
+}
 /* Section */
+
+.experienceTitle{
+  margin-bottom: auto;
+}
 
 .section{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  }
-
+  margin: 0 1rem 1rem 1rem;
+  align-items: center;
+}
 
 .card-home{
   display: flex;
   flex-direction:row;
   background-color: var(--secondaryColor);
   padding: 0.5rem;
-  margin: 0.5rem;
-  justify-content: space-around;
+  justify-content: center;
   border-radius: var(--Bradius);
   align-items: center;
   width: 90%;
-  height: 77px;
-  margin-left: 21.25px;
+  height: 80px;
+  margin-bottom: 1rem;
 }  
 
 .photo{
@@ -58,15 +64,27 @@ h1{
   padding: 0.5rem;
   border-radius: 15px;
 }
+
 .text{
 color:var(--textColor);
-font-stretch: 5%;
-line-height:13px;
-
+line-height:0.8rem;
+font-size: small;
 }
 
+/* Responsive */
 
-
+@media screen and (min-width:769px) {
+ .image-article{
+  margin-left: 30px;
+  margin: 1rem;
+ }
+ .article{
+  flex-direction: row-reverse;
+  margin:1rem;
+ }
+    
+  
+}
 
 
  
