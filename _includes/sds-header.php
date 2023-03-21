@@ -42,6 +42,7 @@
     <title>Body&Soul</title>
 </head>
 <body>
+<div class="container-grid">
 <header class="main-header">
         <menu class="menu">
                 <div class="button">

@@ -2,7 +2,7 @@
 include "_includes/sds-header.php";
 ?>
 
- <main class="home">
+ <main id="main" class="home">
      <div class="imgbackground"></div>
 
      <h1>Body and soul</h1>
@@ -17,7 +17,7 @@ include "_includes/sds-header.php";
     </p>
 </div>
 
-<img src="assets/images/imgArticle.png" alt="image article" class="imageArticle">
+<img src="assets/images/imgArticle.png" alt="image_article" class="imageArticle">
 
       <h2>Retour d'expérience</h2>
 

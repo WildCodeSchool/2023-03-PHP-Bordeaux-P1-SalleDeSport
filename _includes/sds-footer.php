@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
                     <div class="address footerFlex iconeCircle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                             <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -62,5 +62,6 @@
 
                  </div>
 </footer>
+</div>
 </body>
 </html>

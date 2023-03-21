@@ -1,7 +1,7 @@
 <?php
 include "_includes/sds-header.php";
 ?>
-<div class="main-contact">
+<div id="main" class="main-contact">
     <div class="container-contact">
         <form action="">
             <h2>Pour nous contacter</h2>

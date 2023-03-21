@@ -2,7 +2,7 @@
 include "_includes/sds-header.php"
 ?>
 
-<div class="main-staff">
+<div id="main" class="main-staff">
     <h2>Présentation de l'équipe</h2>
     <div class="card-container">
         <div class="card-staff">
