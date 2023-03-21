@@ -1,8 +1,9 @@
 
 /*Main*/
-.home{
-  scroll-behavior: smooth;
-  box-sizing: border-box;
+.imgbackground{
+  width: 100vw;
+  height: 200px;
+  z-index: -1;
 }
 
 /* Article */
@@ -26,11 +27,6 @@ h1{
 }
 
 /* Section */
-
-h2{
-  color: var(--primaryColor);
-
-}
 
 .section{
   display: flex;

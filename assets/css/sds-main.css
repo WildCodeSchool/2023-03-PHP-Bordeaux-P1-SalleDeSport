@@ -14,10 +14,41 @@
 
 h2{
     color : var(--primaryColor);
-    margin: 2rem;
+  text-align: center;
 }
 
 h3{
     color : var(--primaryColor);
 }
 
+.container-grid{
+    display: grid;
+    grid:
+"header" 53px
+    "main" 1fr
+    "footer" 100px
+    /100vw;
+    height: 100vh;
+}
+#header{
+    grid-area: header;
+}
+#main{
+    grid-area: main;
+}
+#footer{
+    grid-area: footer;
+}
+
+@media  screen and (min-width: 475px){
+
+    .container-grid{
+        display: grid;
+        grid:
+"header" 100px
+    "main" 1fr
+    "footer" 100px
+    /100vw;
+        height: 100vh;
+    }
+}
