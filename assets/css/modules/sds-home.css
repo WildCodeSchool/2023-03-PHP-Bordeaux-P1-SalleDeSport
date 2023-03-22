@@ -62,7 +62,7 @@ h1 {
     border-radius: var(--Bradius);
     align-items: center;
     width: 90%;
-    height: 80px;
+    height: auto;
     margin-bottom: 1rem;
 }
 

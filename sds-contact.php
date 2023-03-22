@@ -1,16 +1,30 @@
 <?php
-include "_includes/sds-header.php";
+include "_includes/sds-header.php";?>
+
+<?php include "_includes/scriptDB.php";
+//EMISSION DE DONNEES A LA DB RECUPERE DU FORM
+$name = mysqli_real_escape_string($conn, $_POST["name"]);
+$email = mysqli_real_escape_string($conn, $_POST["email"]);
+$message = $_POST["message"];
+
+$sqlSend = "INSERT INTO fiche_client (nom, mail, message ) VALUES ('$name', '$email', '$message')";
+
+if (mysqli_query($conn, $sqlSend)) {
+    echo "OK";
+} else {
+    echo "Erreur: " . $sqlSend . "<br>" . mysqli_error($conn);
+};
 ?>
 <div class="main-contact" id="main">
             <h2>Pour nous contacter</h2>
    <div class="container-contact">
-        <form>
+        <form action="" method="post">
             <label for="name"></label>
-            <input class="input info" type="text" placeholder="Name" id="name">
+            <input class="input info" type="text" placeholder="Name" id="name" name="name">
             <label for="email"></label>
-            <input class="input info" type="email" placeholder="mon.email@exemple.com" id="email">
-            <label for id="textarea"></label>
-            <textarea class="input textarea" name="textarea" placeholder="Votre message" cols="30" rows="5" id="textarea"></textarea>
+            <input class="input info" type="email" placeholder="mon.email@exemple.com" id="email" name="email">
+            <label for id="message"></label>
+            <textarea class="input textarea" name="message" placeholder="Votre message" cols="30" rows="5" id="message"></textarea>
             <button  onclick="openAlert()" class="input submit" type="submit">Submit
             </button>
         </form>

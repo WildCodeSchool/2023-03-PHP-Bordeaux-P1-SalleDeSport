@@ -37,41 +37,42 @@ include "_includes/sds-header.php";
 
     <div class="section">
 
-        <div class="card-home">
-
-            <img src="assets/images/firstCom.png" alt="first comment" class="photo">
-            <p class="text"> llat deleniti sunt inventore pariatur cum iure odit,
-                pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing
-            </p>
-
-        </div>
-
-        <div class="card-home">
-
-            <img src="assets/images/secondCom.png" alt="second comment" class="photo">
-            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing
-            </p>
-
-        </div>
-
-        <div class="card-home3">
-
-            <img src="assets/images/thirdCom.png" alt="third comment" class="photo">
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing
-            </p>
-
-        </div>
-
-        <div class="card-home3">
-
-            <img src="assets/images/fourthCom.png" alt="fourth comment" class="photo">
-            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicin
-            </p>
-
-        </div>
+        <?php  include "_includes/scriptPull.php" ?>
+<!--        <div class="card-home">-->
+<!---->
+<!--            <img src="assets/images/firstCom.png" alt="first comment" class="photo">-->
+<!--            <p class="text"> llat deleniti sunt inventore pariatur cum iure odit,-->
+<!--                pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing-->
+<!--            </p>-->
+<!---->
+<!--        </div>-->
+<!---->
+<!--        <div class="card-home">-->
+<!---->
+<!--            <img src="assets/images/secondCom.png" alt="second comment" class="photo">-->
+<!--            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
+<!--                pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing-->
+<!--            </p>-->
+<!---->
+<!--        </div>-->
+<!---->
+<!--        <div class="card-home3">-->
+<!---->
+<!--            <img src="assets/images/thirdCom.png" alt="third comment" class="photo">-->
+<!--            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.-->
+<!--                pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicing-->
+<!--            </p>-->
+<!---->
+<!--        </div>-->
+<!---->
+<!--        <div class="card-home3">-->
+<!---->
+<!--            <img src="assets/images/fourthCom.png" alt="fourth comment" class="photo">-->
+<!--            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.-->
+<!--                pudila officia qui non illo?Lorem ipsum, dolor sit amet consectetur adipisicin-->
+<!--            </p>-->
+<!---->
+<!--        </div>-->
     </div>
 
 </article>
