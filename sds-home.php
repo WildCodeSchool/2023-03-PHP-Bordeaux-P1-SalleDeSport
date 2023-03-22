@@ -4,6 +4,7 @@ include "_includes/sds-header.php";
 
 <main id="main" class="home">
     <div class="imgbackground"></div>
+<article>
 
     <h1>Body & Soul</h1>
     <div class="article">
@@ -22,10 +23,10 @@ include "_includes/sds-header.php";
         <img src="assets/images/imgArticle.png" alt="image_article" class="image-article">
     </div>
     <h2 class="experienceTitle" style="margin: 2rem">Retour d'expérience</h2>
-<!--margin-bottom  sur section 2rem-->
+    <!--margin-bottom  sur section 2rem-->
     <div class="section">
 
-         <div class="card-home">
+        <div class="card-home">
 
             <img src="assets/images/firstCom.png" alt="first comment" class="photo">
             <p class="text"> llat deleniti sunt inventore pariatur cum iure odit,
@@ -63,6 +64,7 @@ include "_includes/sds-header.php";
     </div>
 
 
+</article>
 </main>
 <?php
 

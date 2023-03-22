@@ -80,7 +80,10 @@ h1 {
         margin-left: 30px;
         margin: 1rem;
     }
-
+    article{
+        width: 80%;
+        margin: auto;
+    }
     .article {
         flex-direction: row-reverse;
         margin: 1rem;
@@ -101,7 +104,7 @@ h1 {
     }
     .imgbackground {
       width: 100vw;
-      height:410px;
+      height:100vh;
       z-index: -1;
   }
   }
