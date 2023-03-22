@@ -5,7 +5,7 @@ include "_includes/sds-header.php";
 <main id="main" class="home">
     <div class="imgbackground"></div>
 
-    <h1>Body and soul</h1>
+    <h1>Body & Soul</h1>
     <div class="article">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -21,9 +21,8 @@ include "_includes/sds-header.php";
 
         <img src="assets/images/imgArticle.png" alt="image_article" class="image-article">
     </div>
-      
-    <h2 class="experienceTitle">Retour d'expérience</h2>
-
+    <h2 class="experienceTitle" style="margin: 2rem">Retour d'expérience</h2>
+<!--margin-bottom  sur section 2rem-->
     <div class="section">
 
          <div class="card-home">
