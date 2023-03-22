@@ -11,11 +11,15 @@ include "_includes/sds-header.php";
 
        <!--Présentation -->
         <p>
-            La salle de sport de rééducation est un lieu spécialisé conçu pour aider les patients à retrouver leur forme physique et leur bien-être après une blessure ou une maladie. Elle est équipée d'appareils de musculation et de cardio-training spécialement conçus pour la rééducation, ainsi que d'une variété d'accessoires tels que des ballons, des poids, des élastiques, etc.
-       <br><br>
-<br><br>
-            Les patients sont encadrés par des professionnels de la santé tels que des kinésithérapeutes, des physiothérapeutes, des ostéopathes, des médecins du sport, etc., qui élaborent des programmes personnalisés pour répondre aux besoins individuels de chaque patient. Ces programmes sont conçus pour aider à renforcer les muscles, améliorer la souplesse et la mobilité, et aider à réduire la douleur.
+            La salle de sport de rééducation est un lieu spécialisé conçu pour aider les patients 
+            à retrouver leur forme physique et leur bien-être après une blessure ou une maladie. 
+            Elle est équipée d'appareils de musculation et de cardio-training spécialement conçus 
+            pour la rééducation, ainsi que d'une variété d'accessoires tels que des ballons, des poids, des élastiques, etc.
+       
 
+            Les patients sont encadrés par des professionnels de la santé tels que des kinésithérapeutes, des physiothérapeutes,  
+            pour aider à renforcer les muscles, améliorer la souplesse et la mobilité, et aider à réduire la douleur.
+            des ostéopathes, des médecins du sport, etc., qui élaborent des programmes personnalisés pour répondre aux besoins individuels de chaque patient. Ces programmes sont conçus
         </p>
 
         <img src="assets/images/imgArticle.png" alt="image_article" class="image-article">
@@ -45,7 +49,7 @@ include "_includes/sds-header.php";
 
         </div>
 
-        <div class="card-home">
+        <div class="card-home3">
 
             <img src="assets/images/thirdCom.png" alt="third comment" class="photo">
             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -54,7 +58,7 @@ include "_includes/sds-header.php";
 
         </div>
 
-        <div class="card-home">
+        <div class="card-home3">
 
             <img src="assets/images/fourthCom.png" alt="fourth comment" class="photo">
             <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
