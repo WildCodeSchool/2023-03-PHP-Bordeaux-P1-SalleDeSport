@@ -9,76 +9,7 @@ footer a{
     line-height: 15px;
     color: black;
 }
-.address{
-    display: flex;
-
-}
-address{
-    overflow: hidden;
-    width: 0;
-    transition: width 0.5s ease-out;
-}
-.address:hover{
-    width: min-content;
-}
-.address:hover address{
-    display: initial;
-    width: 150px;
-    text-decoration: none;
-    color: black;
-}
-.tel {
-    display: flex;
-
-}
-
-.tel:hover {
-    width: min-content;
-}
-.tel a{
-    overflow: hidden;
-    width: 0;
-    transition: width 0.5s ease-out;
-}
-.tel:hover a {
-    display: initial;
-    text-decoration: none;
-    color: black;
-    width: 150px;
-    transition: width 0.5s ease-out;
-}
-.socialnetwork {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column-reverse;
-    -webkit-box-orient: vertical;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.container-iconeCircle{
-    position: relative;
-}
-.container-iconeCircle {
-    position: absolute;
-    bottom: 50px;
-    height: 0;
-    overflow: hidden;
-    transition: width 0.5s ease-out;
-}
-.socialnetwork:hover .circle {
-    display: flex;
-    transition: width 0.5s ease-out;
-}
-.socialnetwork:hover .container-iconeCircle{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    transition: width 0.5s ease-out;
-
-}
+/*Icone */
 .iconeCircle {
     width: 45px;
     height: 45px;
@@ -98,25 +29,130 @@ svg{
     width: 35px;
     height: 35px;
 }
+/*Icone address*/
+.address{
+    display: flex;
+
+}
+address{
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    width: 0;
+    transition: width 0.5s ease-out;
+}
+.address:hover{
+    width: min-content;
+}
+.address:hover address{
+    display: initial;
+    width: 150px;
+}
+/*Icon Phone*/
+.tel {
+    display: flex;
+}
+
+.tel:hover {
+    width: min-content;
+}
+.tel:not(:hover){
+    transition: transform 1s ease-out;
+}
+.tel a{
+    overflow: hidden;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+.tel:hover a {
+    display: initial;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    transition: width 0.5s ease-out;
+}
+
+/*Icon network*/
+.socialnetwork {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: min-content;
+    z-index: 2;
+}
+
+.container-iconeCircle {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+.socialnetwork:hover .circle {
+    display: flex;
+    transition: width 0.5s ease-out;
+}
+
+/*correction for icon phone*/
+.tel svg{
+    width: 30px;
+    height: 30px;
+}
+
+/**/
+/*animation of socialNetwork icon*/
+/**/
 .iconeCircle:hover svg{
-    -webkit-transform: scale(1) rotate(360deg);
-    -ms-transform: scale(1) rotate(360deg);
-    transform: scale(1) rotate(360deg);
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
+    -webkit-transform: rotateY(720deg);
+    -ms-transform: rotateY(720deg);
+    transform: rotateY(720deg);
+    -webkit-transition-duration: 1.5s;
+    -o-transition-duration: 2.5s;
+    transition-duration: 2.5s;
 }
 #facebook{
     background-color: #3b5998;
+    position: absolute;
+    z-index: -1;
+    transition: transform 1s ease-out;
 }
 #twitter{
     background-color: #00acee;
+    position: absolute;
+    z-index: -1;
+    transition: transform 1s ease-out;
 }
 #insta{
 background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    position: absolute;
+    z-index: -1;
+    transition: transform 1s ease-out;
 }
 #tiktok{
     background: linear-gradient(90deg, #69c9d0, #ee1d52);
+    position: absolute;
+    z-index: -1;
+    transition: transform 1s ease-out;
+}
+.socialnetwork:hover .container-iconeCircle:hover #facebook{
+    transform: translateY(-180px);
+    transition:  1s ease-out;
+}
+.socialnetwork:hover .container-iconeCircle:hover   #twitter{
+    transform: translateY(-90px);
+    transition:  1s ease-out;
+}
+.socialnetwork:hover .container-iconeCircle:hover   #insta{
+    transform: translateY(-135px);
+    transition:  1s ease-out;
+}
+.socialnetwork:hover .container-iconeCircle:hover   #tiktok{
+    transform: translateY(-45px);
+    transition:  1s ease-out;
 }
 
 
