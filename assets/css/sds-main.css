@@ -35,7 +35,7 @@ h3 {
 .container-grid {
     display: grid;
     grid:
-    "header" 53px
+    "header" 0px
     "main" 1fr
     "footer" 70px
     /100vw;
@@ -59,12 +59,13 @@ h3 {
     .container-grid {
         display: grid;
         grid:
-    "header" 100px
+    "header" 0px
     "main" 1fr
     "footer" 100px
     /100vw;
         height: 100vh;
     }
+
 }
 
 
