@@ -53,7 +53,7 @@ h1 {
     align-items: center;
 }
 
-.card-home {
+.card-home{
     display: flex;
     flex-direction: row;
     background-color: var(--secondaryColor);
@@ -79,6 +79,11 @@ h1 {
     line-height: 0.8rem;
     font-size: small;
 }
+/*Card n°3 et 4 display-none sur mobile*/
+
+.card-home3{
+    display: none;
+} 
 
 /* Responsive */
 
@@ -108,29 +113,35 @@ h1 {
     .article p {
         display: block;
        margin-top: 10px;
-
     }
     .article p:last-child{
         display: initial;
     }
     .section {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-        width: 100%;
-        margin: 0 0 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 0 0 2rem 0;
     }
     .card-home{
-      display: flex;
-      align-items: center;
-      background-color: var(--secondaryColor);
-      border-radius: var(--Bradius);
-        width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--secondaryColor);
+    border-radius: var(--Bradius);
+    width: 100%;
     }
     .imgbackground {
-      width: 100vw;
-      height:100vh;
-      z-index: -1;
+    width: 100vw;
+    height:100vh;
+    z-index: -1;
+    }
+    .card-home3{
+    display: flex;
+    align-items: center;
+    background-color: var(--secondaryColor);
+    border-radius: var(--Bradius);
+    width: 100%;
     }
     .ccontent{
         justify-content: center;

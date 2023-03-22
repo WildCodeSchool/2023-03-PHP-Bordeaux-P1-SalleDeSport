@@ -9,6 +9,7 @@ include "_includes/sds-header.php";
     <h1>Body & Soul</h1>
     <div class="article">
 
+
         <!--Présentation -->
         <div class="content">
             <h2>Qui sommes nous ?</h2>
@@ -23,6 +24,7 @@ include "_includes/sds-header.php";
                 physiothérapeutes, des ostéopathes, des médecins du sport, etc., qui élaborent des programmes
                 personnalisés pour répondre aux besoins individuels de chaque patient. Ces programmes sont conçus pour
                 aider à renforcer les muscles, améliorer la souplesse et la mobilité, et aider à réduire la douleur.
+
 
             </p>
         </div>
@@ -53,7 +55,7 @@ include "_includes/sds-header.php";
 
         </div>
 
-        <div class="card-home">
+        <div class="card-home3">
 
             <img src="assets/images/thirdCom.png" alt="third comment" class="photo">
             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -62,7 +64,7 @@ include "_includes/sds-header.php";
 
         </div>
 
-        <div class="card-home">
+        <div class="card-home3">
 
             <img src="assets/images/fourthCom.png" alt="fourth comment" class="photo">
             <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
