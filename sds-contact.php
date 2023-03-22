@@ -9,7 +9,8 @@ include "_includes/sds-header.php";
             <input class="input info" type="text" placeholder="Name" id="name">
             <label for="email"></label>
             <input class="input info" type="email" placeholder="mon.email@exemple.com" id="email">
-            <textarea class="input textarea" name="textarea" placeholder="Votre message" cols="30" rows="5"></textarea>
+            <label for id="textarea"></label>
+            <textarea class="input textarea" name="textarea" placeholder="Votre message" cols="30" rows="5" id="textarea"></textarea>
             <button  onclick="openAlert()" class="input submit" type="submit">Submit
             </button>
         </form>

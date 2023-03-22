@@ -24,7 +24,7 @@ h3 {
 .container-grid {
     display: grid;
     grid:
-    "header" 53px
+    "header" 0px
     "main" 1fr
     "footer" 70px
     /100vw;
@@ -48,7 +48,7 @@ h3 {
     .container-grid {
         display: grid;
         grid:
-    "header" 100px
+    "header" 0px
     "main" 1fr
     "footer" 100px
     /100vw;
@@ -68,10 +68,6 @@ h3 {
     "footer" 70px
     /1fr;
         height: 100vh;
-<<<<<<< HEAD
-
-=======
->>>>>>> ae5a4ac4af91b21392f4c633906194e5d0f4edd8
         margin: auto;
     }
     textarea{
