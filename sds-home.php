@@ -9,7 +9,7 @@ include "_includes/sds-header.php";
     <h1>Body & Soul</h1>
     <div class="article">
 
-
+       <!--Présentation -->
         <p>
             La salle de sport de rééducation est un lieu spécialisé conçu pour aider les patients à retrouver leur forme physique et leur bien-être après une blessure ou une maladie. Elle est équipée d'appareils de musculation et de cardio-training spécialement conçus pour la rééducation, ainsi que d'une variété d'accessoires tels que des ballons, des poids, des élastiques, etc.
        <br><br>
@@ -20,8 +20,11 @@ include "_includes/sds-header.php";
 
         <img src="assets/images/imgArticle.png" alt="image_article" class="image-article">
     </div>
+        
+        <!--Section-->
+    
     <h2 class="experienceTitle" style="margin: 2rem">Retour d'expérience</h2>
-    <!--margin-bottom  sur section 2rem-->
+
     <div class="section">
 
         <div class="card-home">
