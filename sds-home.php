@@ -4,28 +4,27 @@ include "_includes/sds-header.php";
 
 <main id="main" class="home">
     <div class="imgbackground"></div>
+<article>
 
     <h1>Body & Soul</h1>
     <div class="article">
+
+
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Aspernatur cum dicta ipsum molestiae odio
-            quibusdam repellendus soluta vel. Aperiam dignissimos
-            illo ipsum libero nemo odio quisquam quo ullam, ut voluptate?
-            Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Aspernatur cum dicta ipsum molestiae odio quibusdame?
-            Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Aspernatur cum dicta ipsum molestiae odio quibusdame
-            Lorem ipsum dolor sit amet, consectetur adipisicing.
+            La salle de sport de rééducation est un lieu spécialisé conçu pour aider les patients à retrouver leur forme physique et leur bien-être après une blessure ou une maladie. Elle est équipée d'appareils de musculation et de cardio-training spécialement conçus pour la rééducation, ainsi que d'une variété d'accessoires tels que des ballons, des poids, des élastiques, etc.
+       <br><br>
+<br><br>
+            Les patients sont encadrés par des professionnels de la santé tels que des kinésithérapeutes, des physiothérapeutes, des ostéopathes, des médecins du sport, etc., qui élaborent des programmes personnalisés pour répondre aux besoins individuels de chaque patient. Ces programmes sont conçus pour aider à renforcer les muscles, améliorer la souplesse et la mobilité, et aider à réduire la douleur.
+
         </p>
 
         <img src="assets/images/imgArticle.png" alt="image_article" class="image-article">
     </div>
     <h2 class="experienceTitle" style="margin: 2rem">Retour d'expérience</h2>
-<!--margin-bottom  sur section 2rem-->
+    <!--margin-bottom  sur section 2rem-->
     <div class="section">
 
-         <div class="card-home">
+        <div class="card-home">
 
             <img src="assets/images/firstCom.png" alt="first comment" class="photo">
             <p class="text"> llat deleniti sunt inventore pariatur cum iure odit,
@@ -62,6 +61,7 @@ include "_includes/sds-header.php";
         </div>
     </div>
 
+</article>
 
 </main>
 <?php

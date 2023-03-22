@@ -1,7 +1,7 @@
 .main-contact {
     height: 100%;
     width: 100%;
-
+    margin: 2rem 0;
 }
 
 .container-contact {
@@ -158,11 +158,31 @@ iframe {
     p{
 width: 100%;
     }
+
 }
 
 @media screen and (min-width: 1025px) {
+    .main-contact{
+        padding-top: 10rem;
+    }
+
 .info {
     width: 30%;
 }
+    .container-contact{
+        flex-direction: row-reverse;
 
+    }
+    .container-adress{
+        margin-right: 1rem;
+    }
+
+    .main-contact h2{
+        margin: 2rem 0 4rem 0;
+    }
+
+    .dialogBox{
+        width: 30%
+    ;
+    }
 }

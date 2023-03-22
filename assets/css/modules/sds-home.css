@@ -76,32 +76,49 @@ h1 {
 /* Responsive */
 
 @media screen and (min-width: 768px) {
+
+    h1{
+        font-size: 4rem;
+    }
+    article{
+        width: 80%;
+        margin: auto;
+    }
+
     .image-article {
-        margin-left: 30px;
-        margin: 1rem;
+        height: 100%;
+        margin-right: 20px;
     }
 
     .article {
         flex-direction: row-reverse;
+        justify-content: space-between;
         margin: 1rem;
+        width: 100%;
+        margin: auto;
     }
     .article p {
        margin-top: 10px;
+        width: 62%;
+
     }
     .section {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 20px; 
+      gap: 20px;
+        width: 100%;
+        margin: 0 0 2rem 0;
     }
     .card-home{
       display: flex;
       align-items: center;
       background-color: var(--secondaryColor);
-      border-radius: var(--Bradius); 
+      border-radius: var(--Bradius);
+        width: 100%;
     }
     .imgbackground {
       width: 100vw;
-      height:410px;
+      height:100vh;
       z-index: -1;
   }
   }
