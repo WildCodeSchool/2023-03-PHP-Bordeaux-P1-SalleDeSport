@@ -215,14 +215,21 @@ address{
     }
     .external-link{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
     .external-link p {
         text-align: center;
     }
     .external-link a {
         text-align: center;
+
     }
-}
+    #copyright{
+        flex-direction: column;
+    }
+    .footer-contact {
+        justify-content: space-evenly;
+    }
+
+    }
 
