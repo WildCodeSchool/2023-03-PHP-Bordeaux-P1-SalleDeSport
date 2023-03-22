@@ -4,7 +4,7 @@
                                 <a href="">Les mentions légales</a>
                                 <a href="">Réglement interieur</a>
                     </div>
-                    <div class="external-link part-of-footer">
+                    <div class="external-link part-of-footer" id="copyright">
                                <p>© Body&Soul.</p>
                                 <p>Made by Vox-Machina team.</p>
                     </div>
