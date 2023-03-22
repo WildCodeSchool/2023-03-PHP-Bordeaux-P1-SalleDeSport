@@ -77,9 +77,6 @@ h1 {
 
 @media screen and (min-width: 768px) {
 
-    h1{
-        font-size: 4rem;
-    }
     article{
         width: 80%;
         margin: auto;
