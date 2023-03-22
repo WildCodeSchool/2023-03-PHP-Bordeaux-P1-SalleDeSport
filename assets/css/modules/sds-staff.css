@@ -27,7 +27,7 @@
     box-shadow: var(--boxShadow);
     margin: 0 1.5rem;
     width : 18rem;
-    height: 28rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
