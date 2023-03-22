@@ -63,6 +63,7 @@ include "_includes/sds-header.php";
 
 </article>
 
+</article>
 </main>
 <?php
 

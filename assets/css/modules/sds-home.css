@@ -89,7 +89,10 @@ h1 {
         height: 100%;
         margin-right: 20px;
     }
-
+    article{
+        width: 80%;
+        margin: auto;
+    }
     .article {
         flex-direction: row-reverse;
         justify-content: space-between;
