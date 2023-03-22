@@ -43,19 +43,19 @@
     <title>Body&Soul</title>
 </head>
 <body>
-<div class="container-grid">
-<header class="main-header">
-        <menu class="menu">
-                <div class="button">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                </div>
-                <ul id="ul">
-                        <li><a href="../sds-home.php">Home</a></li>
-                        <li><a href="../sds-staff.php">Staff</a></li>
-                        <li><a href="../sds-contact.php">Contact</a></li>
-                  </ul>
-        </menu>
-        <div class="logo"><img src="../assets/images/logo.png" alt=""></div>
-</header>
+    <div class="container-grid">
+            <header class="main-header">
+                    <menu class="menu">
+                            <div class="button">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                            </div>
+                            <ul id="ul">
+                                    <li><a href="../sds-home.php">Home</a></li>
+                                    <li><a href="../sds-staff.php">Staff</a></li>
+                                    <li><a href="../sds-contact.php">Contact</a></li>
+                              </ul>
+                    </menu>
+                    <div class="logo"><img src="../assets/images/logo.png" alt=""></div>
+            </header>
