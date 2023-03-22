@@ -163,6 +163,7 @@ iframe {
 @media screen and (min-width: 1025px) {
     .main-contact{
         margin-top: 150px;
+        height: auto;
     }
 
 .info {
