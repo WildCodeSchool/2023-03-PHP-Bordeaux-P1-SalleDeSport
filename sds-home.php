@@ -9,15 +9,23 @@ include "_includes/sds-header.php";
     <h1>Body & Soul</h1>
     <div class="article">
 
-       <!--Présentation -->
-        <p>
-            La salle de sport de rééducation est un lieu spécialisé conçu pour aider les patients à retrouver leur forme physique et leur bien-être après une blessure ou une maladie. Elle est équipée d'appareils de musculation et de cardio-training spécialement conçus pour la rééducation, ainsi que d'une variété d'accessoires tels que des ballons, des poids, des élastiques, etc.
-       <br><br>
-<br><br>
-            Les patients sont encadrés par des professionnels de la santé tels que des kinésithérapeutes, des physiothérapeutes, des ostéopathes, des médecins du sport, etc., qui élaborent des programmes personnalisés pour répondre aux besoins individuels de chaque patient. Ces programmes sont conçus pour aider à renforcer les muscles, améliorer la souplesse et la mobilité, et aider à réduire la douleur.
+        <!--Présentation -->
+        <div class="content">
+            <h2>Qui sommes nous ?</h2>
+            <p>
+                Body & Soul est un lieu spécialisé conçu pour aider les patients à retrouver leur
+                forme physique et leur bien-être après une blessure ou une maladie. Elle est équipée d'appareils de
+                musculation et de cardio-training spécialement conçus pour la rééducation, ainsi que d'une variété
+                d'accessoires tels que des ballons, des poids, des élastiques, etc.
+            </p>
+            <p>
+                Les patients sont encadrés par des professionnels de la santé tels que des kinésithérapeutes, des
+                physiothérapeutes, des ostéopathes, des médecins du sport, etc., qui élaborent des programmes
+                personnalisés pour répondre aux besoins individuels de chaque patient. Ces programmes sont conçus pour
+                aider à renforcer les muscles, améliorer la souplesse et la mobilité, et aider à réduire la douleur.
 
-        </p>
-
+            </p>
+        </div>
         <img src="assets/images/imgArticle.png" alt="image_article" class="image-article">
     </div>
         
