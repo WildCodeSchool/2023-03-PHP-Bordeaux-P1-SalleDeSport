@@ -68,8 +68,6 @@ h3 {
 
 }
 
-
-/*!*Modif à confirmer avec tout le monde *!*/
 @media screen and (min-width: 1024px){
 
     .container-grid {
@@ -82,6 +80,7 @@ h3 {
         height: 100vh;
         margin: auto;
     }
+
     textarea{
         height: 18rem;
     }
