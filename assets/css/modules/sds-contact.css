@@ -23,9 +23,7 @@ form {
     justify-content: left;
     width: 90%;
 }
-form h2{
-    margin: 2rem 0;
-}
+
 
 .input {
     width: 100%;
@@ -74,12 +72,6 @@ button:hover {
     border: 2px solid black;
 }
 
-.anim-haut {
-    position: relative;
-    animation: top 1s;
-
-}
-
 .dialogBox-title {
     display: flex;
     padding: 0 2rem;
@@ -95,6 +87,13 @@ button:hover {
     right: 0;
 }
 
+/* animation de la boite de dialogue */
+
+.anim-haut {
+    position: relative;
+    animation: top 1s;
+}
+
 @keyframes top {
     from {
         top: -300px;
@@ -108,26 +107,14 @@ button:hover {
 
 /*Partie Adresse*/
 
-
+.container-adress{
+    margin-bottom: 2rem;
+}
 iframe {
 
     width: 100%;
     box-shadow: var(--boxShadow);
     border-radius: 5px;
-}
-
-.adress {
-    width: 100%;
-}
-.container-adress{
-    margin-bottom: 2rem;
-}
-
-
-
-.underline {
-    font-size: 1.2rem;
-    text-decoration: underline;
 }
 
 @media screen and (min-width: 425px) {
@@ -144,15 +131,6 @@ iframe {
         width: 80%;
     }
 
-    .adress {
-        display: initial;
-        flex-direction: column;
-        width: 30%;
-        margin-left: 1rem;
-        align-items: center;
-        justify-content: center;
-    }
-
     iframe {
         margin-bottom: 1rem;
     }
@@ -161,14 +139,19 @@ iframe {
 
 
 @media screen and (min-width: 1025px) {
+
     .main-contact{
         margin-top: 150px;
         height: auto;
     }
 
-.info {
+    .main-contact h2{
+        margin: 2rem 0 4rem 0;
+    }
+
+    .info {
     width: 30%;
-}
+    }
     .container-contact{
         flex-direction: row-reverse;
 
@@ -177,12 +160,7 @@ iframe {
         margin-right: 1rem;
     }
 
-    .main-contact h2{
-        margin: 2rem 0 4rem 0;
-    }
-
     .dialogBox{
-        width: 30%
-    ;
+        width: 30%;
     }
 }
