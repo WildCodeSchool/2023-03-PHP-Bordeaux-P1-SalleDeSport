@@ -1,14 +1,21 @@
 .main-contact {
     height: 100%;
     width: 100%;
-   margin-bottom: 2rem;
+    margin-bottom: 2rem;
     margin-top: 80px;
 }
 
 .container-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     background: var(--background);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 80%;
     margin: auto;
@@ -18,8 +25,15 @@
 /*Partie formulaire*/
 
 form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
     justify-content: left;
     width: 90%;
 }
@@ -31,6 +45,7 @@ form {
     border: none;
     background: var(--secondaryColor);
     border-radius: 5px;
+    -webkit-box-shadow: var(--boxShadow);
     box-shadow: var(--boxShadow);
     padding: 0.5rem;
 }
@@ -41,6 +56,8 @@ form {
 
 .submit {
     width: 20%;
+    min-width: -webkit-min-content;
+    min-width: -moz-min-content;
     min-width: min-content;
     cursor: pointer;
     color: var(--textColor);
@@ -73,6 +90,8 @@ button:hover {
 }
 
 .dialogBox-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0 2rem;
     color: var(--secondaryColor);
@@ -91,7 +110,19 @@ button:hover {
 
 .anim-haut {
     position: relative;
+    -webkit-animation: top 1s;
     animation: top 1s;
+}
+
+@-webkit-keyframes top {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0px;
+        opacity: 1
+    }
 }
 
 @keyframes top {
@@ -113,6 +144,7 @@ button:hover {
 iframe {
 
     width: 100%;
+    -webkit-box-shadow: var(--boxShadow);
     box-shadow: var(--boxShadow);
     border-radius: 5px;
 }
@@ -127,6 +159,8 @@ iframe {
     }
 
     .container-adress {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 80%;
     }
@@ -150,9 +184,12 @@ iframe {
     }
 
     .info {
-    width: 30%;
+        width: 30%;
     }
     .container-contact{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
         flex-direction: row-reverse;
 
     }

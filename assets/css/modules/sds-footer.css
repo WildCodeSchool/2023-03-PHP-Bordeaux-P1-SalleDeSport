@@ -1,4 +1,3 @@
-
 footer{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -152,8 +151,8 @@ address{
     transition: transform 1s ease-out, -webkit-transform 1s ease-out;
 }
 #tiktok{
-    background: -webkit-gradient(linear, left top, right top, from(#69c9d0), to(#ee1d52));
     background: -o-linear-gradient(left, #69c9d0, #ee1d52);
+    background: -webkit-gradient(linear, left top, right top, from(#69c9d0), to(#ee1d52));
     background: linear-gradient(90deg, #69c9d0, #ee1d52);
     position: absolute;
     z-index: -1;
@@ -201,8 +200,13 @@ address{
 }
 .footer-contact{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -214,7 +218,10 @@ address{
         width: 33%;
     }
     .external-link{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
     .external-link p {
@@ -225,11 +232,16 @@ address{
 
     }
     #copyright{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .footer-contact {
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
     }
 
-    }
+}
 
