@@ -9,7 +9,11 @@
 
 h1 {
     color: var(--primaryColor);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding: 2rem 0;
 }
@@ -20,17 +24,31 @@ h1 {
 }
 
 .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: justify;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 .content h2{
     margin-bottom: 1rem;
 }
 .article {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin: 0 1rem;
 }
@@ -48,19 +66,35 @@ h1 {
 }
 
 .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin: 0 1rem 1rem 1rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .card-home{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     background-color: var(--secondaryColor);
     padding: 0.5rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     border-radius: var(--Bradius);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 90%;
     height: auto;
@@ -70,6 +104,7 @@ h1 {
 .photo {
     width: 80px;
     height: auto;
+    -o-object-fit: cover;
     object-fit: cover;
     padding: 0.5rem;
     border-radius: 15px;
@@ -94,7 +129,12 @@ h1 {
         margin: auto;
     }
     .article {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
         flex-direction: row-reverse;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         margin: 1rem;
         width: 100%;
@@ -102,41 +142,54 @@ h1 {
     }
     .article p {
         display: block;
-       margin-top: 10px;
+        margin-top: 10px;
     }
     .article p:last-child{
         display: initial;
     }
     .section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    width: 100%;
-    margin: 0 0 2rem 0;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 20px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+        margin: 0 0 2rem 0;
     }
     .card-home{
-    display: flex;
-    align-items: center;
-    background-color: var(--secondaryColor);
-    border-radius: var(--Bradius);
-    width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: var(--secondaryColor);
+        border-radius: var(--Bradius);
+        width: 100%;
+        height: 100%;
     }
     .imgbackground {
-    width: 100vw;
-    height:100vh;
-    z-index: -1;
+        width: 100vw;
+        height:100vh;
+        z-index: -1;
     }
     .card-home3{
-    display: flex;
-    align-items: center;
-    background-color: var(--secondaryColor);
-    border-radius: var(--Bradius);
-    width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: var(--secondaryColor);
+        border-radius: var(--Bradius);
+        width: 100%;
     }
-    .ccontent{
+    .content{
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
-  }
+}
 @media screen and (max-width: 750px ) {
     /*Card n°3 et 4 display-none sur mobile*/
     .section > :nth-last-of-type(-n+2) {

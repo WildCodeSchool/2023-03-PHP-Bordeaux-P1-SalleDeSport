@@ -12,11 +12,6 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-p{
-    font-family: 'Poppins', sans-serif;
-    color: var(--textColor);
-}
-
 h1{
     font-size: 4rem;
 }
@@ -30,6 +25,11 @@ h2 {
 h3 {
     color: var(--primaryColor);
     font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
 }
 
 .container-grid {
