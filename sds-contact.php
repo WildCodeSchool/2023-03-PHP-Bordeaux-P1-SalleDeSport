@@ -1,16 +1,16 @@
 <?php
-include "_includes/sds-header.php";
-?>
+include "_includes/sds-header.php";?>
+
 <div class="main-contact" id="main">
             <h2>Pour nous contacter</h2>
    <div class="container-contact">
-
+   
        <!-- Formulaire de contact -->
-        <form method="post">
+        <form action="_includes/scriptSend.php" method="post">
             <label for="name"></label>
-            <input class="input info" type="text" placeholder="Name" id="name">
+            <input class="input info" type="text" placeholder="Name" id="name" name="name">
             <label for="email"></label>
-            <input class="input info" name="email" type="email"  placeholder="mon.email@exemple.com" id="email">
+            <input class="input info" type="email" placeholder="mon.email@exemple.com" id="email" name="email">
             <label for id="message"></label>
             <textarea class="input textarea" name="message" placeholder="Votre message" cols="30" rows="5" id="message"></textarea>
             <button  onclick="openAlert()" class="input submit" type="submit">Submit
@@ -34,18 +34,18 @@ include "_includes/sds-header.php";
     </div>
 </div>
 
-<script>
-    let alert = document.querySelector(".box")
-
-    function openAlert() {
-        event.preventDefault();
-        alert.style.display = 'block'
-    }
-
-    function closeAlert() {
-        alert.style.display = 'none'
-    }
-</script>
+<!--<script>-->
+<!--    let alert = document.querySelector(".box")-->
+<!---->
+<!--    function openAlert() {-->
+<!--        event.preventDefault();-->
+<!--        alert.style.display = 'block'-->
+<!--    }-->
+<!---->
+<!--    function closeAlert() {-->
+<!--        alert.style.display = 'none'-->
+<!--    }-->
+<!--</script>-->
 <?php
 include "_includes/sds-footer.php"
 ?>
