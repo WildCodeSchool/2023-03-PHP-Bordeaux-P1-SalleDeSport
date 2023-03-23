@@ -4,6 +4,8 @@ include "_includes/sds-header.php";?>
 <div class="main-contact" id="main">
             <h2>Pour nous contacter</h2>
    <div class="container-contact">
+   
+       <!-- Formulaire de contact -->
         <form action="_includes/scriptSend.php" method="post">
             <label for="name"></label>
             <input class="input info" type="text" placeholder="Name" id="name" name="name">
@@ -14,6 +16,7 @@ include "_includes/sds-header.php";?>
             <button  onclick="openAlert()" class="input submit" type="submit">Submit
             </button>
         </form>
+       <!-- boite de dialogue une fois le mail envoyer-->
         <div class="box">
             <div class="dialogBox anim-haut">
                 <div class="dialogBox-title">
