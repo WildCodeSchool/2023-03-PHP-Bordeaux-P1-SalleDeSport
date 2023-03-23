@@ -13,8 +13,7 @@ include "_includes/sds-header.php";?>
                                     <input class="input info" type="email" placeholder="mon.email@exemple.com" id="email" name="email">
                                     <label for id="message"></label>
                                     <textarea class="input textarea" name="message" placeholder="Votre message" cols="30" rows="5" id="message"></textarea>
-                                    <button  onclick="openAlert()" class="input submit" type="submit">Submit
-                                    </button>
+                                    <button  onclick="openAlert()" class="input submit" type="submit">Submit</button>
                         </form>
                        <!-- boite de dialogue une fois le mail envoyer-->
                         <div class="box">
