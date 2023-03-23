@@ -48,6 +48,8 @@ form {
     -webkit-box-shadow: var(--boxShadow);
     box-shadow: var(--boxShadow);
     padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .textarea {
