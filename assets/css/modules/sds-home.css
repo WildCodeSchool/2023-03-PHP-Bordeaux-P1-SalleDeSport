@@ -24,6 +24,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    justify-content: center;
 }
 .content h2{
     margin-bottom: 1rem;
@@ -74,17 +75,6 @@ h1 {
     border-radius: 15px;
 }
 
-.text {
-    color: var(--textColor);
-    line-height: 0.8rem;
-    font-size: small;
-}
-/*Card n°3 et 4 display-none sur mobile*/
-
-.card-home3{
-    display: none;
-} 
-
 /* Responsive */
 
 @media screen and (min-width: 768px) {
@@ -95,9 +85,9 @@ h1 {
     }
 
     .image-article {
-        height: 300%;
         margin-right: 20px;
-        width: 300%;
+        width: 224%;
+        height: auto;
     }
     article{
         width: 80%;
@@ -147,6 +137,12 @@ h1 {
         justify-content: center;
     }
   }
+@media screen and (max-width: 750px ) {
+    /*Card n°3 et 4 display-none sur mobile*/
+    .section > :nth-last-of-type(-n+2) {
+        display: none;
+    }
+}
 
 
 

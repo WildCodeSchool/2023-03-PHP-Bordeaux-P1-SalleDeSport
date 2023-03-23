@@ -9,6 +9,8 @@
     display: flex;
     background-color: var(--primaryColor);
     z-index: 1;
+    position: fixed;
+    width: 100%;
 }
 
 header img {

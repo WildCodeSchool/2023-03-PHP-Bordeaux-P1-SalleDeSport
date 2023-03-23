@@ -1,25 +1,10 @@
 <?php
 include "_includes/sds-header.php";?>
 
-<?php include "_includes/scriptDB.php";
-//EMISSION DE DONNEES A LA DB RECUPERE DU FORM
-$name = mysqli_real_escape_string($conn, $_POST["name"]);
-$email = mysqli_real_escape_string($conn, $_POST["email"]);
-$message = $_POST["message"];
-
-$sqlSend = "INSERT INTO fiche_client (nom, mail, message ) VALUES ('$name', '$email', '$message')";
-
-if (mysqli_query($conn, $sqlSend)) {
-    echo "OK";
-} else {
-    echo "Erreur: " . $sqlSend . "<br>" . mysqli_error($conn);
-};
-?>
 <div class="main-contact" id="main">
             <h2>Pour nous contacter</h2>
    <div class="container-contact">
-<<<<<<< HEAD
-        <form action="" method="post">
+        <form action="_includes/scriptSend.php" method="post">
             <label for="name"></label>
             <input class="input info" type="text" placeholder="Name" id="name" name="name">
             <label for="email"></label>
@@ -46,18 +31,18 @@ if (mysqli_query($conn, $sqlSend)) {
     </div>
 </div>
 
-<script>
-    let alert = document.querySelector(".box")
-
-    function openAlert() {
-        event.preventDefault();
-        alert.style.display = 'block'
-    }
-
-    function closeAlert() {
-        alert.style.display = 'none'
-    }
-</script>
+<!--<script>-->
+<!--    let alert = document.querySelector(".box")-->
+<!---->
+<!--    function openAlert() {-->
+<!--        event.preventDefault();-->
+<!--        alert.style.display = 'block'-->
+<!--    }-->
+<!---->
+<!--    function closeAlert() {-->
+<!--        alert.style.display = 'none'-->
+<!--    }-->
+<!--</script>-->
 <?php
 include "_includes/sds-footer.php"
 ?>
