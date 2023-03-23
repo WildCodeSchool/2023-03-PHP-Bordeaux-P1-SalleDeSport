@@ -135,7 +135,7 @@
         width: 14rem;
     }
 
-    .card-staff:hover {
+    .container-card-staff:hover  .card-staff{
         -webkit-transform: rotatey(180deg);
         -ms-transform: rotatey(180deg);
         transform: rotatey(180deg);
