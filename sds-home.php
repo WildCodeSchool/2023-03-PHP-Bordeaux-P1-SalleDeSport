@@ -36,7 +36,7 @@
 
                  <h2 class="experienceTitle" style="margin: 2rem">Retour d'expérience</h2>
 
-                        <div class="section">
+                        <div class="section" id="comments">
 
                             <?php include "_includes/scriptPull.php" ?>
 
