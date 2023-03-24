@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../assets/css/sds-main.css">
     <link rel="stylesheet" href="../assets/css/modules/sds-header.css">
@@ -20,8 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- Primary Meta Tags -->
     <meta name="title" content="Meta Tags — Preview, Edit and Generate">
-    <meta name="description"
-          content="The Body&Soul room specializing in rehabilitation sports, disabled sports and assisted sports!">
+    <meta name="description" content="The Body&Soul room specializing in rehabilitation sports, disabled sports and assisted sports!">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -41,6 +39,7 @@
     <meta property="twitter:image"
           content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
     <title>Body&Soul</title>
+    <link rel="icon" href="/assets/images/logo.ico">
 </head>
 <body>
     <div class="container-grid">
