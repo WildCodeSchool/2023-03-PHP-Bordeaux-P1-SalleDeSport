@@ -9,11 +9,8 @@ $sqlSend = "INSERT INTO fiche_client (nom, mail, message ) VALUES ('$name', '$em
 
 //VERIFICATION DE L INSERTION DES DONNEES DANS LA DB
 if (mysqli_query($conn, $sqlSend)) {
-    header("Location: http://localhost:8000/sds-home.php");
+    header("Location: http://localhost:8000/sds-home.php#comments");
 
 } else {
     echo "Erreur: " . $sqlSend . "<br>" . mysqli_error($conn);
 };
-exit();
-?>
-

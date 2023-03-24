@@ -9,7 +9,7 @@ $result = $conn->query($sqlDrop);
     while($row = $result ->fetch_assoc()){
         echo '<div class="card-home">';
         echo '<img src="https://picsum.photos/200?rand=' . rand() . '" alt="fourth comment" class="photo">';
-        echo '<div style="text-align: center;"><p></p><strong>' . $row["nom"] . '  ' .$row["prenom"].' </strong><p/>';
+        echo '<div style="text-align: center;"><p><strong>' . $row["nom"] . '  ' .$row["prenom"].' </strong><p/>';
         echo '<p class="text">' . $row["message"] . '</p></div>';
         echo '</div>';
     };
