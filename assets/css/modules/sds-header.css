@@ -114,6 +114,7 @@ li:not(:hover){
 header a {
     color: white;
     font-size: 1.93rem;
+    text-decoration: none;
 }
 
 /*break point 1024px*/
@@ -175,5 +176,6 @@ header a {
     li a {
         font-size: 2rem;
         text-decoration: none;
+        text-shadow: 0 0 0.2em black; /* crée une ombre textuelle pour simuler une ligne de soulignement de 0,2em de hauteur et noire */
     }
 }
